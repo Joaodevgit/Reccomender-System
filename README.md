@@ -3,14 +3,14 @@
 
 (Click on the above image for more school's details)
 
-## Reccomender-System
+## Reccomender System using Neo4j and Apriori algorithm (FP-Growth)
 ![Estgflix Logo](https://user-images.githubusercontent.com/44362304/132983610-2783de71-3def-42b4-b7d2-be9e0de32a33.png)
 
-The project's main goal is to create a recommendation system using information stored in a database based on graph, using machine learning.
 ### School final project
-(...)
 
-<img src="https://user-images.githubusercontent.com/44362304/107681656-3cbfdb00-6c97-11eb-981a-56b3935da286.png" width="300" height="300">
+This project comes within the scope of the Final Project course of the Bachelor in Computer Engineering and its main objective is to put into practice all the knowledge acquired throughout the bachelor.
+
+The project's main goal is to create a recommendation system using information stored in Neo4j database and using Apriori algorithm (FP-Growth) to make recommendations based on the explicit data given by the user. 
 
 ## Table of Contents
 
@@ -53,10 +53,10 @@ Some of the project screenshots
 ## Usage
 
 You must meet the following requirements:
-- Having **Python 3.7** installed
-- Having an **IDE** installed (Pycharm, Eclipse ...)
-- Having **Neo4j Browser** installed
-- Having **Angular CLI** and **NodeJs** installed
+- **Python 3.7** installed
+- **IDE** (Pycharm, Eclipse ...) installed
+- **Neo4j Browser** installed
+- **Angular CLI** and **NodeJs** installed
 
 ### 1st Step - Creation of graph database:
 
