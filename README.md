@@ -57,6 +57,7 @@ You must meet the following requirements:
 - **IDE** (Pycharm, Eclipse ...) installed
 - **Neo4j Browser** installed
 - **Angular CLI** and **NodeJs** installed
+- Have the datasets files (Please download the zip with datasets from this link: https://we.tl/t-V02Vhr02Dr)
 
 ### 1st Step - Creation of graph database:
 
@@ -80,13 +81,13 @@ The confidence property of the RECOMMENDS relationship refers to the trust value
 **Important note: Dont forget to comment dbms.directories.import=import in neo4j database's settings otherwise you cannot import the necessary data from the csv files to the database!**
 <div style="text-align: right"> After the node indexes are created you need to create the nodes. 
 
-To create the nodes "Genres" you need to import the csv file named "movies_genre.csv" (located in AlgoritmoML/datasets.zip).
+To create the nodes "Genres" you need to import the csv file named "movies_genre.csv" (located in downloaded zip).
 (Uncomment line 213 of the Neo4jCreationDB python file)
   
-To create the nodes "Movies" you need to import the csv file named "movies.csv" (located in AlgoritmoML/datasets.zip).
+To create the nodes "Movies" you need to import the csv file named "movies.csv" (located in downloaded zip).
 (Uncomment line 216 of the Neo4jCreationDB python file)
   
-To create the nodes "Users" you need to import the csv file named "userRatings5k.csv" (located in AlgoritmoML/datasets.zip).
+To create the nodes "Users" you need to import the csv file named "userRatings5k.csv" (located in downloaded zip).
 (Uncomment line 219 of the Neo4jCreationDB python file)
 </div>
 
