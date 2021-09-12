@@ -1,0 +1,137 @@
+.grid-page-container {
+  display: grid;
+  grid-template-rows: 0.1fr 0.9fr;
+}
+
+/* Navbar */
+.grid-navbar-container {
+  display: grid;
+  grid-template-columns: 0.8fr 0.3fr;
+  background-color: #000000;
+  border-bottom: 1px solid red;
+}
+
+.grid-logo-container {
+  display: grid;
+  grid-template-columns: 0.2fr 0.8fr;
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: 0.3fr 0.3fr 0.35fr;
+  grid-gap: 0.5em;
+  /*border: 2px solid white;*/
+}
+
+.logout-container {
+  display: grid;
+  align-items: center;
+  /*border: 2px solid white;*/
+}
+
+.user-name-container {
+  color: white;
+  align-self: center;
+  text-align: center;
+  /*border: 2px solid white;*/
+}
+
+.user-profile-button-container {
+  align-self: center;
+}
+
+/* User Profile Content */
+.main-page-content-container {
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+  grid-gap: 1em;
+  background-color: #000000;
+  /*border: 2px solid white;*/
+  height: 100vh;
+  padding-left: 1%;
+}
+
+/* Profile Left Side */
+.profile-left-side-container {
+  display: grid;
+  grid-template-rows: 0.3fr 0.1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.profile-image {
+  padding-top: 10%;
+  /*border: 2px solid white;*/
+}
+
+.profile-details {
+  color: white;
+  /*border: 2px solid white;*/
+}
+
+/* Profile Left Side */
+
+.profile-right-side-container {
+  display: grid;
+  grid-template-rows: 0.4fr 0.4fr;
+}
+
+.watched-movies-title {
+  color: white;
+  font-size: 30px;
+  width: 30%;
+  padding-left: 1%;
+  /*border: 2px solid white;*/
+  border-bottom: 1px solid white;
+}
+
+.watched-movies-container {
+  display: grid;
+  grid-template-rows: 0.2fr 0.5fr;
+  grid-gap: 1em;
+  /*border: 2px solid white;*/
+}
+
+.no-movies-content {
+  display: grid;
+  align-items: center;
+  /*border: 2px solid white;*/
+}
+
+.no-movies-text {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+
+.watched-movies-content {
+  display: grid;
+  grid-template-columns: repeat(5, 0.2fr);
+  grid-gap: 2em;
+  /*border: 2px solid white;*/
+}
+
+.movie-content {
+  display: grid;
+  grid-template-rows: 0.8fr 0.2fr;
+  justify-items: center;
+  align-items: center;
+  /*border: 2px solid white;*/
+}
+
+.movies-size {
+  width: 200px;
+  height: 250px;
+  /*border: 2px solid white;*/
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.movie-title {
+  color: white;
+  font-size: 0.75vw;
+  text-align: center;
+  /*border: 2px solid white;*/
+}
+
+

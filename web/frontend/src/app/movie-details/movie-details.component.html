@@ -1,0 +1,87 @@
+<div class="grid-page-container">
+  <!-- Navbar -->
+  <div class="grid-navbar-container">
+    <div class="grid-logo-container">
+      <a href="mainMenu">
+        <img
+          src="https://user-images.githubusercontent.com/44362304/122624988-be3ad600-d09a-11eb-9bd0-c5a1c1a40ee0.png"/>
+      </a>
+    </div>
+    <div class="profile-container">
+      <div class="logout-container">
+        <button (click)="logout()" type="button" class="btn btn-light" data-mdb-ripple-color="dark">Logout</button>
+      </div>
+      <div class="user-name-container">
+        {{currentUser.username}}
+      </div>
+      <div class="user-profile-button-container">
+        <button routerLink="/userProfile" type="button" class="btn btn-light">
+          <mdb-icon fas icon="user-alt" size="1x"></mdb-icon>
+          Your profile
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar -->
+  <!-- Movie Details Content -->
+  <div [hidden]="isLoaded" style="background-color: #000000;height: 47.85vh">
+    <div class="spinner-border text-light" style="width: 3rem; height: 3rem;"
+         role="status">
+    </div>
+    <span style="color: white; padding-left: 1%">Loading movie details please wait a moment... </span>
+  </div>
+  <div class="movie-title-container">
+    {{movieDetails["title"]}}
+  </div>
+  <div class="main-page-content-container" *ngIf="isLoaded">
+    <div class="movie-details-left-side-container">
+      <img class="movie-size"
+           src="{{movieDetails['poster']}}">
+    </div>
+    <div class="movie-details-right-side-container">
+      <div class="movie-detail-title">
+        Overview
+      </div>
+      <div class="movie-detail-description">
+        {{movieDetails["overview"]}}
+      </div>
+      <div class="movie-detail-title">
+        Genre
+      </div>
+      <div class="movie-detail-description">
+        {{movieGenres}}
+      </div>
+      <div class="movie-detail-title">
+        Release date
+      </div>
+      <div class="movie-detail-description">
+        {{movieDetails["released_date"]}}
+      </div>
+      <div class="movie-details-buttons-container">
+        <div class="button-rate-container">
+          Rate:
+          <ngb-rating [max]="5" [(rate)]="currentRate" [readonly]="false" style="padding-right:3% "></ngb-rating>
+          <button (click)="updateClientRatings(currentRate)" type="button" class="btn btn-light classButtonWatch">
+            <mdb-icon fas icon="star" size="2x"></mdb-icon>
+            Rate
+          </button>
+        </div>
+        <div class="button-watched-container">
+          <div *ngIf="hasWatchedMovie; else notWatchedMovie">
+            <button id="buttonWatched" type="button" class="btn btn-light" disabled>
+              <mdb-icon fas icon="eye" size="2x"></mdb-icon>
+              Watch
+            </button>
+          </div>
+          <ng-template #notWatchedMovie>
+            <button (click)="updateClientMoviesWatched()" type="button" class="btn btn-light">
+              <mdb-icon fas icon="eye" size="2x"></mdb-icon>
+              Watch
+            </button>
+          </ng-template>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Movie Details Content -->
+</div>

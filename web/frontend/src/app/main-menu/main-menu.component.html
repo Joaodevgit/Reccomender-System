@@ -1,0 +1,86 @@
+<div class="grid-page-container">
+  <!-- Navbar -->
+  <div class="grid-navbar-container">
+    <div class="grid-logo-container">
+      <a href="mainMenu">
+        <img
+          src="https://user-images.githubusercontent.com/44362304/122624988-be3ad600-d09a-11eb-9bd0-c5a1c1a40ee0.png"/>
+      </a>
+    </div>
+    <div class="profile-container">
+      <div class="logout-container">
+        <button (click)="logout()" type="button" class="btn btn-light" data-mdb-ripple-color="dark">Logout</button>
+      </div>
+      <div class="user-name-container">
+        {{currentUser.username}}
+      </div>
+      <div class="user-profile-button-container">
+        <button routerLink="/userProfile" type="button" class="btn btn-light">
+          <mdb-icon fas icon="user-alt" size="1x"></mdb-icon>
+          Your profile
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar -->
+  <!-- Search Bar -->
+  <div class="search-bar-container">
+    <div class="search-bar-content">
+      <div class="search-bar">
+        <div class="input-group mb-3">
+          <input type="text" id="searchBar" class="form-control" placeholder="Search for a movie name"/>
+          <button (click)="searchForMovies()" type="button" class="btn btn-primary">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Search Bar -->
+  <!-- Main Menu Content -->
+  <div [hidden]="isLoaded" style="background-color: #000000">
+    <div class="spinner-border text-light" style="width: 3rem; height: 3rem;"
+         role="status">
+    </div>
+    <span style="color: white; padding-left: 1%">Loading movies please wait a moment... </span>
+  </div>
+  <div class="main-page-content-container" *ngIf="isLoaded">
+    <div class="movies-title">
+      Recommended For You
+    </div>
+    <div class="movies-content">
+      <div class="movie-content" *ngFor="let movie of userRecommendedMovies">
+        <img routerLink="{{'/movieDetails/' + movie['movieId']}}" class="movies-size"
+             src="{{movie['poster']}}">
+        <div class="movie-title">
+          {{movie["title"]}}
+        </div>
+      </div>
+    </div>
+    <div class="movies-title">
+      Popular Action Movies
+    </div>
+    <div class="movies-content">
+      <div class="movie-content" *ngFor="let movie of popularActionMovies">
+        <img routerLink="{{'/movieDetails/' + movie['movieId']}}" class="movies-size"
+             src="{{movie['poster']}}">
+        <div class="movie-title">
+          {{movie["title"]}}
+        </div>
+      </div>
+    </div>
+    <div class="movies-title">
+      Popular Comedy Movies
+    </div>
+    <div class="movies-content">
+      <div class="movie-content" *ngFor="let movie of popularComedyMovies">
+        <img routerLink="{{'/movieDetails/' + movie['movieId']}}" class="movies-size"
+             src="{{movie['poster']}}">
+        <div class="movie-title">
+          {{movie["title"]}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Main Menu Content -->
+</div>

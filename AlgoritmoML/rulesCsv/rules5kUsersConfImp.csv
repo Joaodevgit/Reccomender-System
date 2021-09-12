@@ -1,0 +1,544 @@
+id,antecedents,consequents,antecedent_support,consequent_support,support,confidence,kulczynski,imbalance_ratio
+1,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1622,0.211,0.1524,0.939581,0.830928,0.221014
+2,"['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Two Towers, The (2002)']",0.138,0.1988,0.1294,0.937681,0.794293,0.293153
+3,"['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.154,0.211,0.1434,0.931169,0.805395,0.25722
+4,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Two Towers, The (2002)']",0.1646,0.1988,0.1524,0.925881,0.84624,0.162085
+5,"['Indiana Jones and the Last Crusade (1989)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1142,0.1622,0.1034,0.905429,0.771457,0.277457
+6,"['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)']",0.1434,0.1956,0.1294,0.902371,0.781963,0.249046
+7,"['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1544,0.211,0.138,0.893782,0.773905,0.248901
+8,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1126,0.1658,0.1002,0.889876,0.747109,0.298541
+9,['Batman Forever (1995)'],['Batman (1989)'],0.1346,0.1972,0.1196,0.888559,0.747525,0.295005
+10,"['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1172,0.1362,0.1036,0.883959,0.822303,0.126836
+11,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1134,0.154,0.1002,0.883598,0.767124,0.242823
+12,"['Godfather: Part II, The (1974)']","['Godfather, The (1972)']",0.1434,0.211,0.1266,0.882845,0.741422,0.296752
+13,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']","['Lord of the Rings: The Two Towers, The (2002)']",0.1362,0.1988,0.12,0.881057,0.742339,0.291163
+14,"['Indiana Jones and the Last Crusade (1989)', 'Star Wars: Episode IV - A New Hope (1977)']","['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1176,0.1534,0.1034,0.879252,0.776653,0.213604
+15,"['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Return of the King, The (2003)']",0.154,0.1956,0.1354,0.879221,0.785725,0.194211
+16,"['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']","['Lord of the Rings: The Two Towers, The (2002)']",0.1544,0.1988,0.1354,0.876943,0.779015,0.203857
+17,"['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)']",0.174,0.1956,0.1524,0.875862,0.827502,0.099448
+18,"['Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1988,0.211,0.174,0.875252,0.849948,0.051739
+19,"['Lord of the Rings: The Return of the King, The (2003)', 'Star Wars: Episode IV - A New Hope (1977)']","['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1242,0.174,0.1084,0.872786,0.747888,0.262381
+20,"['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1152,0.1646,0.1002,0.869792,0.73927,0.275056
+21,"['Shawshank Redemption, The (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Two Towers, The (2002)']",0.1342,0.1988,0.1166,0.868852,0.727685,0.298521
+22,"['Forrest Gump (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Two Towers, The (2002)']",0.1368,0.1988,0.1188,0.868421,0.733003,0.285978
+23,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode IV - A New Hope (1977)']",['Star Wars: Episode V - The Empire Strikes Back (1980)'],0.1622,0.2246,0.1408,0.868064,0.747478,0.253659
+24,"['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1172,0.1658,0.1014,0.865188,0.738384,0.267621
+25,"['Lord of the Rings: The Return of the King, The (2003)', 'Forrest Gump (1994)']","['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.123,0.174,0.1064,0.865041,0.738267,0.267576
+26,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Two Towers, The (2002)']",0.1658,0.1988,0.1434,0.864897,0.793112,0.149186
+27,"['Lord of the Rings: The Return of the King, The (2003)', 'Fight Club (1999)']","['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1192,0.174,0.103,0.864094,0.728024,0.288118
+28,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode VI - Return of the Jedi (1983)']","['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1398,0.1894,0.1208,0.864092,0.750948,0.238004
+29,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1238,0.1806,0.1062,0.857835,0.722938,0.286579
+30,"['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1278,0.1658,0.1096,0.85759,0.759313,0.206522
+31,"['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1172,0.1646,0.1,0.853242,0.730387,0.260726
+32,"['Matrix, The (1999)', 'Star Wars: Episode VI - Return of the Jedi (1983)']","['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1448,0.1894,0.1234,0.85221,0.75187,0.211575
+33,"['Lord of the Rings: The Two Towers, The (2002)', 'Fight Club (1999)']","['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1232,0.1658,0.1046,0.849026,0.739953,0.23102
+34,"['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1278,0.1646,0.1084,0.8482,0.753383,0.2
+35,"['Pulp Fiction (1994)', 'Lord of the Rings: The Two Towers, The (2002)']","['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.12,0.1658,0.1014,0.845,0.72829,0.248373
+36,"['Lord of the Rings: The Return of the King, The (2003)', 'Fight Club (1999)']","['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1192,0.1658,0.1006,0.84396,0.725358,0.252711
+37,"['Lord of the Rings: The Return of the King, The (2003)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1242,0.1658,0.1048,0.8438,0.737943,0.224622
+38,['Star Wars: Episode V - The Empire Strikes Back (1980)'],['Star Wars: Episode IV - A New Hope (1977)'],0.2246,0.2844,0.1894,0.843277,0.75462,0.187109
+39,"['Lord of the Rings: The Return of the King, The (2003)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1956,0.211,0.1646,0.841513,0.810804,0.063636
+40,"['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.154,0.1646,0.1294,0.84026,0.813204,0.056025
+41,"['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']","['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1544,0.174,0.1294,0.838083,0.79088,0.098492
+42,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1238,0.1278,0.1036,0.836834,0.823738,0.027027
+43,"['Lord of the Rings: The Two Towers, The (2002)', 'Fight Club (1999)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1232,0.1646,0.103,0.836039,0.730899,0.224026
+44,"['Lord of the Rings: The Return of the King, The (2003)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1242,0.154,0.1038,0.835749,0.754887,0.170872
+45,"['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']",0.12,0.1544,0.1002,0.835,0.741982,0.197474
+46,"['Terminator 2: Judgment Day (1991)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1254,0.1864,0.1046,0.834131,0.697645,0.294402
+47,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']",['Star Wars: Episode V - The Empire Strikes Back (1980)'],0.1864,0.2246,0.1552,0.832618,0.761812,0.149335
+48,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']","['Lord of the Rings: The Return of the King, The (2003)']",0.1362,0.1956,0.1134,0.832599,0.706177,0.271978
+49,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)']",0.1658,0.1956,0.138,0.832328,0.768925,0.133393
+50,"['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Back to the Future (1985)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1252,0.1864,0.1042,0.832268,0.69564,0.295082
+51,"['Shawshank Redemption, The (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)']",0.1342,0.1956,0.1116,0.831595,0.701073,0.281393
+52,"['Shawshank Redemption, The (1994)', 'Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.126,0.1646,0.1046,0.830159,0.732819,0.207527
+53,"['Lord of the Rings: The Return of the King, The (2003)']","['Lord of the Rings: The Two Towers, The (2002)']",0.1956,0.1988,0.1622,0.829243,0.822569,0.013781
+54,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Fight Club (1999)']","['Lord of the Rings: The Return of the King, The (2003)']",0.1324,0.1956,0.1096,0.827795,0.694061,0.289377
+55,"['Jurassic Park (1993)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1252,0.1864,0.1036,0.827476,0.691635,0.294231
+56,"['Shawshank Redemption, The (1994)', 'Lord of the Rings: The Return of the King, The (2003)']","['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1266,0.174,0.1046,0.826224,0.713687,0.241837
+57,"['Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Two Towers, The (2002)']",0.211,0.1988,0.174,0.824645,0.849948,0.051739
+58,"['Jurassic Park (1993)', 'Star Wars: Episode VI - Return of the Jedi (1983)']","['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",0.126,0.1894,0.1036,0.822222,0.684606,0.299339
+59,"['Lord of the Rings: The Two Towers, The (2002)', 'Forrest Gump (1994)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1296,0.1646,0.1064,0.820988,0.733702,0.186368
+60,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1222,0.1622,0.1002,0.819967,0.718862,0.217155
+61,"['Lord of the Rings: The Return of the King, The (2003)', 'Forrest Gump (1994)']","['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.123,0.1658,0.1008,0.819512,0.713736,0.22766
+62,"['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",['Star Wars: Episode VI - Return of the Jedi (1983)'],0.1894,0.2342,0.1552,0.81943,0.741055,0.166915
+63,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1238,0.154,0.1014,0.819063,0.738752,0.171202
+64,"['Forrest Gump (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)']",0.1368,0.1956,0.112,0.818713,0.695655,0.266788
+65,"['Lord of the Rings: The Two Towers, The (2002)', 'Forrest Gump (1994)']","['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1296,0.1658,0.106,0.817901,0.728612,0.19113
+66,"['Shawshank Redemption, The (1994)', 'Lord of the Rings: The Two Towers, The (2002)']","['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.126,0.1658,0.103,0.81746,0.719345,0.210805
+67,"['Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Return of the King, The (2003)']",0.1988,0.1956,0.1622,0.815895,0.822569,0.013781
+68,"['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']",['Star Wars: Episode V - The Empire Strikes Back (1980)'],0.1806,0.2246,0.1472,0.815061,0.735224,0.170543
+69,['Beauty and the Beast (1991)'],['Aladdin (1992)'],0.1492,0.1884,0.1214,0.813673,0.729024,0.181314
+70,"['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']",0.1278,0.1544,0.1038,0.812207,0.742244,0.149103
+71,"['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1278,0.1238,0.1036,0.810642,0.823738,0.027027
+72,"['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",['Star Wars: Episode VI - Return of the Jedi (1983)'],0.1602,0.2342,0.1298,0.810237,0.682232,0.279667
+73,"['Pulp Fiction (1994)', 'Star Wars: Episode IV - A New Hope (1977)']",['Star Wars: Episode V - The Empire Strikes Back (1980)'],0.1496,0.2246,0.121,0.808824,0.67378,0.296209
+74,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1238,0.1622,0.1,0.807754,0.712139,0.206452
+75,"['Lord of the Rings: The Return of the King, The (2003)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1242,0.1434,0.1002,0.806763,0.752754,0.114695
+76,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1362,0.154,0.1096,0.804699,0.758193,0.09856
+77,['Mission: Impossible (1996)'],['Independence Day (a.k.a. ID4) (1996)'],0.1616,0.215,0.1298,0.803218,0.703469,0.21637
+78,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Forrest Gump (1994)']","['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1366,0.1894,0.1096,0.802343,0.690506,0.243993
+79,"['Star Wars: Episode IV - A New Hope (1977)', 'Back to the Future (1985)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1302,0.1698,0.1042,0.800307,0.706985,0.202247
+80,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']","['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1622,0.1658,0.1294,0.797781,0.789119,0.018127
+81,"['Terminator 2: Judgment Day (1991)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Terminator, The (1984)']",0.1254,0.1518,0.1,0.797448,0.728105,0.148984
+82,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Indiana Jones and the Last Crusade (1989)']","['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1298,0.1894,0.1034,0.79661,0.671272,0.276182
+83,['Star Wars: Episode VI - Return of the Jedi (1983)'],['Star Wars: Episode IV - A New Hope (1977)'],0.2342,0.2844,0.1864,0.795901,0.725658,0.151114
+84,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1362,0.1622,0.1084,0.795888,0.7321,0.136842
+85,"['Pulp Fiction (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1276,0.154,0.1014,0.794671,0.726557,0.146504
+86,"['Matrix, The (1999)', 'Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)']",['Star Wars: Episode V - The Empire Strikes Back (1980)'],0.1516,0.2246,0.12,0.791557,0.66292,0.284934
+87,"['Shawshank Redemption, The (1994)', 'Star Wars: Episode IV - A New Hope (1977)']",['Star Wars: Episode V - The Empire Strikes Back (1980)'],0.155,0.2246,0.1226,0.790968,0.668413,0.270817
+88,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Fight Club (1999)']","['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1324,0.154,0.1046,0.79003,0.734625,0.118812
+89,"['Forrest Gump (1994)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1388,0.1864,0.1096,0.789625,0.688804,0.220779
+90,"['Lord of the Rings: The Return of the King, The (2003)']","['Matrix, The (1999)']",0.1956,0.2876,0.1544,0.789366,0.663112,0.279805
+91,"['Terminator 2: Judgment Day (1991)', 'Star Wars: Episode IV - A New Hope (1977)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1328,0.1698,0.1046,0.787651,0.701835,0.186869
+92,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1534,0.1864,0.1208,0.787484,0.717777,0.150685
+93,"['Jurassic Park (1993)', 'True Lies (1994)']",['Speed (1994)'],0.1298,0.1704,0.1022,0.787365,0.693565,0.205051
+94,['Pirates of the Caribbean: The Curse of the Black Pearl (2003)'],"['Lord of the Rings: The Two Towers, The (2002)']",0.1316,0.1988,0.1036,0.787234,0.654181,0.296296
+95,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1646,0.154,0.1294,0.786148,0.813204,0.056025
+96,"['Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)']",0.211,0.2876,0.1658,0.785782,0.681138,0.230168
+97,"['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1278,0.1602,0.1004,0.785603,0.70616,0.172708
+98,"['Pulp Fiction (1994)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1338,0.1864,0.105,0.784753,0.674029,0.244424
+99,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode IV - A New Hope (1977)']",['Star Wars: Episode VI - Return of the Jedi (1983)'],0.1622,0.2342,0.1272,0.784217,0.663671,0.267459
+100,"['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1278,0.138,0.1002,0.784038,0.755062,0.061594
+101,['Pirates of the Caribbean: The Curse of the Black Pearl (2003)'],"['Lord of the Rings: The Return of the King, The (2003)']",0.1316,0.1956,0.103,0.782675,0.65463,0.285459
+102,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1658,0.1622,0.1294,0.780458,0.789119,0.018127
+103,"['Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)']",0.211,0.1956,0.1646,0.780095,0.810804,0.063636
+104,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1362,0.1602,0.1062,0.779736,0.721329,0.126183
+105,"['Shawshank Redemption, The (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1342,0.1622,0.1046,0.779434,0.712158,0.145985
+106,"['Lord of the Rings: The Return of the King, The (2003)']","['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1956,0.174,0.1524,0.779141,0.827502,0.099448
+107,"['Forrest Gump (1994)', 'Star Wars: Episode IV - A New Hope (1977)']",['Star Wars: Episode V - The Empire Strikes Back (1980)'],0.159,0.2246,0.1238,0.778616,0.664909,0.252502
+108,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],0.1552,0.2184,0.1208,0.778351,0.665733,0.25
+109,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Fight Club (1999)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1324,0.1622,0.103,0.777946,0.706482,0.155532
+110,"['Forrest Gump (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1368,0.1622,0.1064,0.777778,0.716879,0.13188
+111,"['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)']",0.1894,0.2876,0.1472,0.777191,0.644506,0.297756
+112,"['Silence of the Lambs, The (1991)', 'Star Wars: Episode IV - A New Hope (1977)']",['Star Wars: Episode V - The Empire Strikes Back (1980)'],0.1484,0.2246,0.1152,0.77628,0.644596,0.295578
+113,['Dumb & Dumber (Dumb and Dumber) (1994)'],['Ace Ventura: Pet Detective (1994)'],0.1398,0.1632,0.1084,0.775393,0.719804,0.120247
+114,"['Forrest Gump (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1368,0.154,0.106,0.774854,0.731583,0.093074
+115,"['Lord of the Rings: The Two Towers, The (2002)']","['Matrix, The (1999)']",0.1988,0.2876,0.154,0.774648,0.655057,0.267148
+116,"['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],0.1472,0.2184,0.1138,0.773098,0.64708,0.282764
+117,"['Fugitive, The (1993)', 'True Lies (1994)']",['Batman (1989)'],0.1294,0.1972,0.1,0.772798,0.639949,0.299206
+118,"['Pulp Fiction (1994)', 'True Lies (1994)']",['Batman (1989)'],0.1416,0.1972,0.1094,0.772599,0.663683,0.242371
+119,"['Jurassic Park (1993)', 'Speed (1994)']","['Fugitive, The (1993)']",0.1406,0.2068,0.1086,0.772404,0.648775,0.277219
+120,"['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1602,0.1864,0.1234,0.770287,0.716152,0.117384
+121,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']",0.1362,0.1544,0.1048,0.769457,0.724106,0.097955
+122,"['Fugitive, The (1993)', 'Batman (1989)']",['True Lies (1994)'],0.13,0.1824,0.1,0.769231,0.658739,0.246704
+123,"['Pulp Fiction (1994)', 'Forrest Gump (1994)']","['Silence of the Lambs, The (1991)']",0.2148,0.3134,0.165,0.768156,0.64732,0.271476
+124,"['Terminator, The (1984)']",['Star Wars: Episode V - The Empire Strikes Back (1980)'],0.1518,0.2246,0.1166,0.768116,0.64363,0.280216
+125,"['Shawshank Redemption, The (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1342,0.154,0.103,0.767511,0.718171,0.106911
+126,"['Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1988,0.1646,0.1524,0.7666,0.84624,0.162085
+127,['Die Hard: With a Vengeance (1995)'],['Batman (1989)'],0.1494,0.1972,0.1144,0.76573,0.672926,0.205857
+128,['Memento (2000)'],['Fight Club (1999)'],0.1562,0.2238,0.1196,0.765685,0.650046,0.259601
+129,"['Pulp Fiction (1994)', 'Matrix, The (1999)']",['Fight Club (1999)'],0.1644,0.2238,0.1256,0.76399,0.662602,0.2262
+130,"['Batman (1989)', 'Apollo 13 (1995)']",['Dances with Wolves (1990)'],0.1332,0.189,0.1016,0.762763,0.650165,0.252947
+131,"['Jurassic Park (1993)', 'Batman (1989)']","['Fugitive, The (1993)']",0.1374,0.2068,0.1048,0.762737,0.634753,0.289891
+132,['Jurassic Park (1993)'],['Forrest Gump (1994)'],0.2644,0.3396,0.2014,0.761725,0.677388,0.186786
+133,"['Pulp Fiction (1994)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1338,0.1806,0.1018,0.760837,0.662257,0.220132
+134,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']","['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1362,0.1172,0.1036,0.760646,0.822303,0.126836
+135,"['Jurassic Park (1993)', 'Braveheart (1995)']",['Terminator 2: Judgment Day (1991)'],0.152,0.2306,0.1156,0.760526,0.630914,0.294382
+136,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Fight Club (1999)']","['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']",0.1324,0.1544,0.1006,0.759819,0.705686,0.118153
+137,"['Terminator 2: Judgment Day (1991)', 'Star Wars: Episode IV - A New Hope (1977)']","['Terminator, The (1984)']",0.1328,0.1518,0.1008,0.759036,0.711534,0.103373
+138,"['Silence of the Lambs, The (1991)', 'Dances with Wolves (1990)']","['Fugitive, The (1993)']",0.1354,0.2068,0.1024,0.756278,0.625721,0.297748
+139,"['Jurassic Park (1993)', 'Star Wars: Episode IV - A New Hope (1977)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.137,0.1698,0.1036,0.756204,0.683167,0.161417
+140,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],0.1698,0.2184,0.1284,0.756184,0.672048,0.187067
+141,['Star Wars: Episode V - The Empire Strikes Back (1980)'],['Star Wars: Episode VI - Return of the Jedi (1983)'],0.2246,0.2342,0.1698,0.756011,0.740516,0.033218
+142,['Stargate (1994)'],['Batman (1989)'],0.1348,0.1972,0.1016,0.753709,0.634461,0.270833
+143,['Die Hard: With a Vengeance (1995)'],['True Lies (1994)'],0.1494,0.1824,0.1126,0.753681,0.685503,0.150547
+144,"['Forrest Gump (1994)', 'Star Wars: Episode IV - A New Hope (1977)']",['Star Wars: Episode VI - Return of the Jedi (1983)'],0.159,0.2342,0.1194,0.750943,0.630382,0.274653
+145,"['Matrix, The (1999)', 'Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)']","['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1516,0.1894,0.1138,0.75066,0.675752,0.166373
+146,"['Shawshank Redemption, The (1994)', 'Forrest Gump (1994)']",['Pulp Fiction (1994)'],0.2124,0.326,0.1594,0.750471,0.619714,0.299736
+147,"['Forrest Gump (1994)', 'Batman (1989)']",['Apollo 13 (1995)'],0.1356,0.208,0.1016,0.749263,0.618862,0.299174
+148,"['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],0.1602,0.2184,0.12,0.749064,0.649258,0.225058
+149,"['Pulp Fiction (1994)', 'Jurassic Park (1993)']",['Terminator 2: Judgment Day (1991)'],0.1728,0.2306,0.1294,0.748843,0.654994,0.210949
+150,"['Matrix, The (1999)', 'Star Wars: Episode VI - Return of the Jedi (1983)']",['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],0.1448,0.2184,0.1084,0.748619,0.622478,0.288854
+151,"['Fugitive, The (1993)']","['Silence of the Lambs, The (1991)']",0.2068,0.3134,0.1546,0.747582,0.62044,0.291575
+152,"['Pulp Fiction (1994)', 'Twelve Monkeys (a.k.a. 12 Monkeys) (1995)']",['Seven (a.k.a. Se7en) (1995)'],0.1362,0.1988,0.1018,0.74743,0.629751,0.268439
+153,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode VI - Return of the Jedi (1983)']",['Indiana Jones and the Last Crusade (1989)'],0.1398,0.1462,0.1044,0.746781,0.730436,0.035242
+154,"['Pulp Fiction (1994)', 'Dances with Wolves (1990)']",['Batman (1989)'],0.1468,0.1972,0.1096,0.746594,0.651188,0.215017
+155,"['Forrest Gump (1994)', 'Batman (1989)']","['Fugitive, The (1993)']",0.1356,0.2068,0.1012,0.746313,0.617838,0.295191
+156,['Indiana Jones and the Last Crusade (1989)'],"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1462,0.1622,0.109,0.745554,0.708782,0.080241
+157,['Shrek (2001)'],"['Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.165,0.211,0.123,0.745455,0.664196,0.181818
+158,"['Usual Suspects, The (1995)']",['Pulp Fiction (1994)'],0.225,0.326,0.1676,0.744889,0.629499,0.263432
+159,"['Shawshank Redemption, The (1994)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1364,0.1864,0.1016,0.744868,0.644966,0.22604
+160,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode IV - A New Hope (1977)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1622,0.1698,0.1208,0.74476,0.728093,0.035985
+161,['Fight Club (1999)'],"['Matrix, The (1999)']",0.2238,0.2876,0.1666,0.744415,0.661846,0.185035
+162,['Indiana Jones and the Last Crusade (1989)'],"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1462,0.1534,0.1088,0.744186,0.726722,0.037736
+163,['Speed (1994)'],['Terminator 2: Judgment Day (1991)'],0.1704,0.2306,0.1268,0.744131,0.647,0.219548
+164,"['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']",0.174,0.1544,0.1294,0.743678,0.79088,0.098492
+165,"['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],0.1894,0.2184,0.1408,0.7434,0.694044,0.108614
+166,"['Fugitive, The (1993)', 'Terminator 2: Judgment Day (1991)']",['Speed (1994)'],0.1362,0.1704,0.1012,0.743025,0.668461,0.166504
+167,"['Pulp Fiction (1994)', 'Shawshank Redemption, The (1994)']","['Silence of the Lambs, The (1991)']",0.2192,0.3134,0.1628,0.742701,0.631082,0.254732
+168,['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],['Star Wars: Episode IV - A New Hope (1977)'],0.2184,0.2844,0.1622,0.742674,0.656498,0.193776
+169,"['Shawshank Redemption, The (1994)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1364,0.1806,0.1012,0.741935,0.651145,0.204819
+170,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1534,0.1806,0.1138,0.741851,0.685987,0.123524
+171,"['Pulp Fiction (1994)', 'True Lies (1994)']","['Fugitive, The (1993)']",0.1416,0.2068,0.105,0.741525,0.624631,0.267872
+172,"['Pulp Fiction (1994)', 'Silence of the Lambs, The (1991)']",['Forrest Gump (1994)'],0.2226,0.3396,0.165,0.74124,0.613553,0.294562
+173,"['Forrest Gump (1994)', 'Speed (1994)']","['Fugitive, The (1993)']",0.139,0.2068,0.103,0.741007,0.619536,0.279242
+174,"['Jurassic Park (1993)', 'Apollo 13 (1995)']","['Fugitive, The (1993)']",0.1382,0.2068,0.1024,0.740955,0.618059,0.28277
+175,"['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1354,0.1362,0.1002,0.74003,0.737856,0.004667
+176,"['Fugitive, The (1993)', 'Forrest Gump (1994)']",['Terminator 2: Judgment Day (1991)'],0.1512,0.2306,0.1116,0.738095,0.611025,0.293856
+177,['Terminator 2: Judgment Day (1991)'],['Forrest Gump (1994)'],0.2306,0.3396,0.1702,0.738075,0.619627,0.2725
+178,['Indiana Jones and the Last Crusade (1989)'],"['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1462,0.1894,0.1078,0.737346,0.653256,0.18964
+179,"['Forrest Gump (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']",0.1368,0.1544,0.1008,0.736842,0.694846,0.092437
+180,"['Jurassic Park (1993)', 'Apollo 13 (1995)']","['Silence of the Lambs, The (1991)', 'Forrest Gump (1994)']",0.1382,0.2124,0.1018,0.736614,0.607949,0.298232
+181,"['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1362,0.1354,0.1002,0.735683,0.737856,0.004667
+182,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode VI - Return of the Jedi (1983)']","['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1398,0.1806,0.1028,0.735336,0.652275,0.1875
+183,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode VI - Return of the Jedi (1983)']","['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1398,0.1602,0.1028,0.735336,0.688517,0.103448
+184,"['Seven (a.k.a. Se7en) (1995)', 'Forrest Gump (1994)']","['Pulp Fiction (1994)', 'Silence of the Lambs, The (1991)']",0.1478,0.2226,0.1086,0.734777,0.611324,0.285714
+185,"['Jurassic Park (1993)', 'Fugitive, The (1993)']",['Speed (1994)'],0.1478,0.1704,0.1086,0.734777,0.686051,0.107824
+186,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",['Indiana Jones and the Last Crusade (1989)'],0.1408,0.1462,0.1034,0.734375,0.720813,0.029412
+187,"['Jurassic Park (1993)', 'Silence of the Lambs, The (1991)', 'Forrest Gump (1994)']",['Terminator 2: Judgment Day (1991)'],0.1528,0.2306,0.1122,0.734293,0.610425,0.286873
+188,"['Silence of the Lambs, The (1991)', 'Apollo 13 (1995)']","['Fugitive, The (1993)']",0.1442,0.2068,0.1058,0.733703,0.622654,0.255302
+189,"['Jurassic Park (1993)', 'Shawshank Redemption, The (1994)']","['Pulp Fiction (1994)', 'Forrest Gump (1994)']",0.1554,0.2148,0.1138,0.732304,0.63105,0.231669
+190,"['Terminator, The (1984)']",['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],0.1518,0.2184,0.111,0.731225,0.619733,0.256944
+191,"['Forrest Gump (1994)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1388,0.1806,0.1014,0.730548,0.646005,0.191743
+192,['Ace Ventura: Pet Detective (1994)'],['Batman (1989)'],0.1632,0.1972,0.1192,0.730392,0.667427,0.140962
+193,"['Pulp Fiction (1994)', 'Batman (1989)']",['Apollo 13 (1995)'],0.1536,0.208,0.112,0.729167,0.633814,0.217949
+194,"['Jurassic Park (1993)', 'Batman (1989)']",['Speed (1994)'],0.1374,0.1704,0.1,0.727802,0.657328,0.158807
+195,"['Pulp Fiction (1994)', 'True Lies (1994)']",['Apollo 13 (1995)'],0.1416,0.208,0.103,0.727401,0.611297,0.269262
+196,"['Jurassic Park (1993)', 'Speed (1994)']",['True Lies (1994)'],0.1406,0.1824,0.1022,0.726885,0.643596,0.189312
+197,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1698,0.1806,0.1234,0.726737,0.705008,0.047577
+198,"['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']",0.138,0.1278,0.1002,0.726087,0.755062,0.061594
+199,"['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']",['Star Wars: Episode VI - Return of the Jedi (1983)'],0.1806,0.2342,0.131,0.72536,0.642356,0.188865
+200,['Star Wars: Episode VI - Return of the Jedi (1983)'],['Star Wars: Episode V - The Empire Strikes Back (1980)'],0.2342,0.2246,0.1698,0.725021,0.740516,0.033218
+201,"['Matrix, The (1999)', 'Terminator 2: Judgment Day (1991)']","['Terminator, The (1984)']",0.1388,0.1518,0.1006,0.724784,0.693749,0.068421
+202,"['Jurassic Park (1993)', 'Silence of the Lambs, The (1991)']",['Terminator 2: Judgment Day (1991)'],0.1758,0.2306,0.1274,0.724687,0.638579,0.196416
+203,"['Forrest Gump (1994)', 'Fight Club (1999)']","['Pulp Fiction (1994)', 'Matrix, The (1999)']",0.1392,0.1644,0.1008,0.724138,0.668638,0.12426
+204,"[""Schindler's List (1993)""]","['Shawshank Redemption, The (1994)']",0.2602,0.3482,0.1882,0.72329,0.631892,0.209424
+205,"['Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']",0.211,0.1622,0.1524,0.722275,0.830928,0.221014
+206,"['Shawshank Redemption, The (1994)', 'Forrest Gump (1994)']","['Silence of the Lambs, The (1991)']",0.2124,0.3134,0.1534,0.722222,0.605846,0.271214
+207,"['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']",['Fight Club (1999)'],0.154,0.2238,0.1112,0.722078,0.609475,0.261815
+208,"['Forrest Gump (1994)', 'Braveheart (1995)']",['Jurassic Park (1993)'],0.1788,0.2644,0.129,0.721477,0.604687,0.272438
+209,"['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1472,0.211,0.1062,0.721467,0.612393,0.253175
+210,"['Lord of the Rings: The Two Towers, The (2002)']","['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1988,0.1658,0.1434,0.721328,0.793112,0.149186
+211,['Terminator 2: Judgment Day (1991)'],['Jurassic Park (1993)'],0.2306,0.2644,0.1662,0.720729,0.674661,0.102798
+212,"['Jurassic Park (1993)', 'Shawshank Redemption, The (1994)']",['Terminator 2: Judgment Day (1991)'],0.1554,0.2306,0.112,0.720721,0.603205,0.274453
+213,"['Jurassic Park (1993)', 'Shawshank Redemption, The (1994)']","['Silence of the Lambs, The (1991)', 'Forrest Gump (1994)']",0.1554,0.2124,0.112,0.720721,0.624014,0.22283
+214,"['Silence of the Lambs, The (1991)', 'Forrest Gump (1994)']",['Jurassic Park (1993)'],0.2124,0.2644,0.1528,0.719397,0.648654,0.160494
+215,"['Silence of the Lambs, The (1991)', 'Star Wars: Episode IV - A New Hope (1977)']",['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],0.1484,0.2184,0.1066,0.718329,0.603212,0.269024
+216,['True Lies (1994)'],['Batman (1989)'],0.1824,0.1972,0.1308,0.717105,0.690195,0.059486
+217,['Dumb & Dumber (Dumb and Dumber) (1994)'],['Batman (1989)'],0.1398,0.1972,0.1002,0.716738,0.612426,0.242399
+218,"['Pulp Fiction (1994)', 'Dances with Wolves (1990)']",['Apollo 13 (1995)'],0.1468,0.208,0.1052,0.716621,0.611195,0.245192
+219,['Speed (1994)'],"['Fugitive, The (1993)']",0.1704,0.2068,0.1218,0.714789,0.651882,0.142522
+220,"['Fugitive, The (1993)']",['Jurassic Park (1993)'],0.2068,0.2644,0.1478,0.7147,0.636851,0.178108
+221,"['Pulp Fiction (1994)', 'True Lies (1994)']",['Dances with Wolves (1990)'],0.1416,0.189,0.1012,0.714689,0.625069,0.206626
+222,"['Silence of the Lambs, The (1991)', 'Seven (a.k.a. Se7en) (1995)']","['Pulp Fiction (1994)', 'Forrest Gump (1994)']",0.152,0.2148,0.1086,0.714474,0.610031,0.243222
+223,"['Pulp Fiction (1994)', 'Apollo 13 (1995)']",['Batman (1989)'],0.1568,0.1972,0.112,0.714286,0.641118,0.166942
+224,"['Jurassic Park (1993)', 'Pulp Fiction (1994)']","['Silence of the Lambs, The (1991)', 'Forrest Gump (1994)']",0.1728,0.2124,0.1234,0.71412,0.64755,0.151261
+225,['Indiana Jones and the Last Crusade (1989)'],"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode VI - Return of the Jedi (1983)']",0.1462,0.1398,0.1044,0.71409,0.730436,0.035242
+226,['Indiana Jones and the Last Crusade (1989)'],"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1462,0.1864,0.1044,0.71409,0.637088,0.176161
+227,['Indiana Jones and the Last Crusade (1989)'],"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1462,0.1698,0.1044,0.71409,0.664465,0.111531
+228,"['Pulp Fiction (1994)', 'Batman (1989)']",['Dances with Wolves (1990)'],0.1536,0.189,0.1096,0.713542,0.646718,0.151931
+229,"['Pulp Fiction (1994)', 'Fight Club (1999)']",['American Beauty (1999)'],0.1472,0.2064,0.105,0.713315,0.611018,0.238134
+230,['Star Wars: Episode V - The Empire Strikes Back (1980)'],"['Matrix, The (1999)']",0.2246,0.2876,0.1602,0.713268,0.635146,0.178977
+231,"['Matrix, The (1999)', 'Star Wars: Episode VI - Return of the Jedi (1983)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1448,0.211,0.1032,0.712707,0.600904,0.262074
+232,"['Pulp Fiction (1994)', 'Star Wars: Episode IV - A New Hope (1977)']",['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],0.1496,0.2184,0.1066,0.712567,0.600331,0.263198
+233,"['Pulp Fiction (1994)', 'Batman (1989)']",['True Lies (1994)'],0.1536,0.1824,0.1094,0.71224,0.656011,0.127096
+234,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",['Fight Club (1999)'],0.1658,0.2238,0.118,0.711701,0.619479,0.213549
+235,"['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']",0.154,0.1362,0.1096,0.711688,0.758193,0.09856
+236,['True Lies (1994)'],['Jurassic Park (1993)'],0.1824,0.2644,0.1298,0.711623,0.601273,0.258675
+237,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1698,0.1622,0.1208,0.711425,0.728093,0.035985
+238,"['Jurassic Park (1993)', 'Speed (1994)']",['Batman (1989)'],0.1406,0.1972,0.1,0.711238,0.609169,0.238015
+239,"['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1602,0.1622,0.1138,0.710362,0.705982,0.009588
+240,"['Silence of the Lambs, The (1991)']",['Pulp Fiction (1994)'],0.3134,0.326,0.2226,0.710274,0.696548,0.03023
+241,['E.T. the Extra-Terrestrial (1982)'],['Back to the Future (1985)'],0.1414,0.1982,0.1004,0.710042,0.6083,0.237458
+242,"['Matrix, The (1999)', 'Star Wars: Episode VI - Return of the Jedi (1983)']","['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1448,0.1622,0.1028,0.709945,0.671865,0.085211
+243,"['Matrix, The (1999)', 'Star Wars: Episode VI - Return of the Jedi (1983)']","['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1448,0.1534,0.1028,0.709945,0.690044,0.044012
+244,['True Lies (1994)'],"['Fugitive, The (1993)']",0.1824,0.2068,0.1294,0.70943,0.667577,0.093918
+245,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",['Indiana Jones and the Last Crusade (1989)'],0.1534,0.1462,0.1088,0.709257,0.726722,0.037736
+246,"['Jurassic Park (1993)', 'Fugitive, The (1993)']",['Batman (1989)'],0.1478,0.1972,0.1048,0.709066,0.620253,0.205662
+247,"['Pulp Fiction (1994)', 'Seven (a.k.a. Se7en) (1995)']","['Usual Suspects, The (1995)']",0.1622,0.225,0.115,0.709001,0.610056,0.230713
+248,"['Matrix, The (1999)', 'Fight Club (1999)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1666,0.211,0.118,0.708283,0.633763,0.171032
+249,"['Jurassic Park (1993)', 'Fugitive, The (1993)']",['True Lies (1994)'],0.1478,0.1824,0.1046,0.707713,0.640589,0.153369
+250,"['Terminator, The (1984)']","['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1518,0.1894,0.1074,0.70751,0.637282,0.160821
+251,['Indiana Jones and the Last Crusade (1989)'],"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1462,0.1408,0.1034,0.70725,0.720813,0.029412
+252,['Terminator 2: Judgment Day (1991)'],['Pulp Fiction (1994)'],0.2306,0.326,0.1628,0.705984,0.602685,0.242255
+253,"['Silence of the Lambs, The (1991)', 'Apollo 13 (1995)']","['Jurassic Park (1993)', 'Forrest Gump (1994)']",0.1442,0.2014,0.1018,0.705964,0.605713,0.234619
+254,"['Shawshank Redemption, The (1994)', 'Star Wars: Episode IV - A New Hope (1977)']",['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],0.155,0.2184,0.1094,0.705806,0.603361,0.240152
+255,"['Lord of the Rings: The Return of the King, The (2003)']","['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1956,0.1658,0.138,0.705521,0.768925,0.133393
+256,"['Pulp Fiction (1994)', 'Fugitive, The (1993)']",['Batman (1989)'],0.1514,0.1972,0.1068,0.705416,0.623499,0.189413
+257,['Braveheart (1995)'],['Forrest Gump (1994)'],0.254,0.3396,0.1788,0.703937,0.61522,0.206365
+258,"['Fugitive, The (1993)', 'Forrest Gump (1994)']",['Apollo 13 (1995)'],0.1512,0.208,0.1064,0.703704,0.607621,0.224684
+259,"['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']",['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],0.1806,0.2184,0.127,0.703212,0.642357,0.138971
+260,"['Forrest Gump (1994)', 'Apollo 13 (1995)']","['Fugitive, The (1993)']",0.1514,0.2068,0.1064,0.702774,0.608641,0.220016
+261,['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],['Star Wars: Episode V - The Empire Strikes Back (1980)'],0.2184,0.2246,0.1534,0.702381,0.692686,0.021409
+262,"['Jurassic Park (1993)', 'Silence of the Lambs, The (1991)']","['Pulp Fiction (1994)', 'Forrest Gump (1994)']",0.1758,0.2148,0.1234,0.701934,0.638211,0.145958
+263,"['Pulp Fiction (1994)', 'Star Wars: Episode IV - A New Hope (1977)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1496,0.1698,0.105,0.701872,0.660124,0.094216
+264,['Terminator 2: Judgment Day (1991)'],"['Silence of the Lambs, The (1991)']",0.2306,0.3134,0.1618,0.701648,0.608961,0.216641
+265,"['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1602,0.211,0.1124,0.701623,0.617162,0.196291
+266,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1622,0.1602,0.1138,0.701603,0.705982,0.009588
+267,"['Jurassic Park (1993)', 'Matrix, The (1999)']",['Back to the Future (1985)'],0.1434,0.1982,0.1006,0.701534,0.604551,0.227386
+268,['Speed (1994)'],"['Jurassic Park (1993)', 'Forrest Gump (1994)']",0.1704,0.2014,0.1194,0.700704,0.646777,0.122821
+269,"['Lion King, The (1994)']",['Aladdin (1992)'],0.1698,0.1884,0.1188,0.699647,0.66511,0.077694
+270,['Die Hard: With a Vengeance (1995)'],['Apollo 13 (1995)'],0.1494,0.208,0.1044,0.698795,0.600359,0.231621
+271,"['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1434,0.1242,0.1002,0.698745,0.752754,0.114695
+272,"['Matrix, The (1999)', 'Silence of the Lambs, The (1991)']",['Fight Club (1999)'],0.161,0.2238,0.1124,0.698137,0.600186,0.230543
+273,['Die Hard: With a Vengeance (1995)'],"['Fugitive, The (1993)']",0.1494,0.2068,0.1042,0.697456,0.600662,0.227778
+274,['Batman (1989)'],['Jurassic Park (1993)'],0.1972,0.2644,0.1374,0.696755,0.608211,0.207279
+275,"['Jurassic Park (1993)', 'Braveheart (1995)']","['Fugitive, The (1993)']",0.152,0.2068,0.1058,0.696053,0.603829,0.216601
+276,"['Terminator, The (1984)']",['Back to the Future (1985)'],0.1518,0.1982,0.1056,0.695652,0.614224,0.189853
+277,"['Forrest Gump (1994)', 'Star Wars: Episode IV - A New Hope (1977)']",['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],0.159,0.2184,0.1106,0.695597,0.601004,0.222639
+278,"['Pulp Fiction (1994)', 'Batman (1989)']","['Fugitive, The (1993)']",0.1536,0.2068,0.1068,0.695313,0.605877,0.209779
+279,['Ace Ventura: Pet Detective (1994)'],['Apollo 13 (1995)'],0.1632,0.208,0.1134,0.694853,0.620023,0.173778
+280,"['Silence of the Lambs, The (1991)', 'Terminator 2: Judgment Day (1991)']","['Pulp Fiction (1994)', 'Forrest Gump (1994)']",0.1618,0.2148,0.1124,0.694685,0.608981,0.200606
+281,['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],"['Matrix, The (1999)']",0.2184,0.2876,0.1516,0.694139,0.61063,0.19526
+282,['Gladiator (2000)'],"['Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1678,0.211,0.1164,0.693683,0.622671,0.164634
+283,"['Pulp Fiction (1994)', 'Fugitive, The (1993)']",['True Lies (1994)'],0.1514,0.1824,0.105,0.693527,0.634593,0.13549
+284,"['Silence of the Lambs, The (1991)', 'Apollo 13 (1995)']",['Batman (1989)'],0.1442,0.1972,0.1,0.693481,0.60029,0.219553
+285,"['Silence of the Lambs, The (1991)', 'Terminator 2: Judgment Day (1991)']","['Jurassic Park (1993)', 'Forrest Gump (1994)']",0.1618,0.2014,0.1122,0.693449,0.625274,0.157769
+286,"['Pulp Fiction (1994)', 'Matrix, The (1999)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1644,0.211,0.114,0.693431,0.616858,0.178271
+287,['Dances with Wolves (1990)'],['Batman (1989)'],0.189,0.1972,0.131,0.693122,0.678711,0.032132
+288,['Beauty and the Beast (1991)'],['Batman (1989)'],0.1492,0.1972,0.1034,0.693029,0.608685,0.197531
+289,"['Lord of the Rings: The Return of the King, The (2003)']","['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1956,0.154,0.1354,0.692229,0.785725,0.194211
+290,"['Jurassic Park (1993)', 'Terminator 2: Judgment Day (1991)']","['Fugitive, The (1993)']",0.1662,0.2068,0.115,0.691937,0.624015,0.157364
+291,['Star Wars: Episode V - The Empire Strikes Back (1980)'],"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']",0.2246,0.1864,0.1552,0.691006,0.761812,0.149335
+292,"['Pulp Fiction (1994)', 'Forrest Gump (1994)']",['Jurassic Park (1993)'],0.2148,0.2644,0.1484,0.690875,0.626073,0.14994
+293,"['Pulp Fiction (1994)', 'Terminator 2: Judgment Day (1991)']","['Silence of the Lambs, The (1991)', 'Forrest Gump (1994)']",0.1628,0.2124,0.1124,0.690418,0.609804,0.188737
+294,"['Pulp Fiction (1994)', 'Dances with Wolves (1990)']",['True Lies (1994)'],0.1468,0.1824,0.1012,0.689373,0.622099,0.15614
+295,"['Forrest Gump (1994)', 'Star Wars: Episode IV - A New Hope (1977)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.159,0.1698,0.1096,0.689308,0.667386,0.04927
+296,"['Pulp Fiction (1994)', 'Terminator 2: Judgment Day (1991)']","['Jurassic Park (1993)', 'Forrest Gump (1994)']",0.1628,0.2014,0.1122,0.689189,0.623144,0.153175
+297,"['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']","['Forrest Gump (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.154,0.1368,0.106,0.688312,0.731583,0.093074
+298,"['Pulp Fiction (1994)', 'Usual Suspects, The (1995)']",['Seven (a.k.a. Se7en) (1995)'],0.1676,0.1988,0.115,0.686158,0.632315,0.124105
+299,['Dances with Wolves (1990)'],['Apollo 13 (1995)'],0.189,0.208,0.1296,0.685714,0.654396,0.071055
+300,['Indiana Jones and the Last Crusade (1989)'],"['Matrix, The (1999)', 'Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)']",0.1462,0.1516,0.1002,0.685363,0.673157,0.027328
+301,['Shrek (2001)'],"['Lord of the Rings: The Two Towers, The (2002)']",0.165,0.1988,0.113,0.684848,0.626629,0.134769
+302,"['Pulp Fiction (1994)', 'Fight Club (1999)']","['Matrix, The (1999)', 'Forrest Gump (1994)']",0.1472,0.1758,0.1008,0.684783,0.629081,0.128713
+303,"['Shawshank Redemption, The (1994)', 'Matrix, The (1999)']",['Fight Club (1999)'],0.1782,0.2238,0.1218,0.683502,0.613869,0.162741
+304,"['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1806,0.1698,0.1234,0.683278,0.705008,0.047577
+305,['Star Wars: Episode V - The Empire Strikes Back (1980)'],['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],0.2246,0.2184,0.1534,0.682992,0.692686,0.021409
+306,['Pulp Fiction (1994)'],"['Silence of the Lambs, The (1991)']",0.326,0.3134,0.2226,0.682822,0.696548,0.03023
+307,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']",['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],0.1864,0.2184,0.1272,0.682403,0.63241,0.115274
+308,"['Silence of the Lambs, The (1991)', 'Usual Suspects, The (1995)']",['Seven (a.k.a. Se7en) (1995)'],0.1548,0.1988,0.1056,0.682171,0.606679,0.177419
+309,"['Pulp Fiction (1994)', 'Matrix, The (1999)']",['American Beauty (1999)'],0.1644,0.2064,0.112,0.681265,0.611951,0.162287
+310,"['Fugitive, The (1993)', 'Forrest Gump (1994)']",['Speed (1994)'],0.1512,0.1704,0.103,0.681217,0.642838,0.087832
+311,"['Terminator, The (1984)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1518,0.1698,0.1034,0.681159,0.645056,0.082493
+312,['Braveheart (1995)'],['Pulp Fiction (1994)'],0.254,0.326,0.173,0.681102,0.605889,0.176904
+313,"['Lord of the Rings: The Two Towers, The (2002)']","['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']",0.1988,0.1544,0.1354,0.681087,0.779015,0.203857
+314,"['Pulp Fiction (1994)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1496,0.1602,0.1018,0.680481,0.657968,0.050962
+315,"['Matrix, The (1999)', 'Forrest Gump (1994)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1758,0.211,0.1196,0.680319,0.623572,0.131737
+316,"['Silence of the Lambs, The (1991)', 'Braveheart (1995)']","['Pulp Fiction (1994)', 'Forrest Gump (1994)']",0.1682,0.2148,0.1144,0.680143,0.606366,0.173492
+317,"['Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']",0.211,0.154,0.1434,0.679621,0.805395,0.25722
+318,"['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Fight Club (1999)']",0.154,0.1324,0.1046,0.679221,0.734625,0.118812
+319,"['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1544,0.1362,0.1048,0.678756,0.724106,0.097955
+320,['True Lies (1994)'],['Apollo 13 (1995)'],0.1824,0.208,0.1238,0.678728,0.63696,0.096024
+321,"['Matrix, The (1999)', 'Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1516,0.1864,0.1028,0.6781,0.614801,0.147959
+322,"['Matrix, The (1999)', 'Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1516,0.1698,0.1028,0.6781,0.641759,0.083257
+323,"['Forrest Gump (1994)', 'Braveheart (1995)']",['Terminator 2: Judgment Day (1991)'],0.1788,0.2306,0.1212,0.677852,0.601719,0.179736
+324,"['Silence of the Lambs, The (1991)']",['Forrest Gump (1994)'],0.3134,0.3396,0.2124,0.677728,0.651585,0.059464
+325,"['Jurassic Park (1993)', 'Terminator 2: Judgment Day (1991)']",['Speed (1994)'],0.1662,0.1704,0.1126,0.677497,0.669148,0.01875
+326,"['Fugitive, The (1993)', 'Forrest Gump (1994)']","['Jurassic Park (1993)', 'Silence of the Lambs, The (1991)']",0.1512,0.1758,0.1024,0.677249,0.629865,0.109528
+327,"['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1806,0.211,0.1222,0.676633,0.62789,0.112843
+328,"['Pulp Fiction (1994)', 'Fugitive, The (1993)']",['Dances with Wolves (1990)'],0.1514,0.189,0.1024,0.676354,0.609077,0.157983
+329,"['Matrix, The (1999)', 'Forrest Gump (1994)']",['Fight Club (1999)'],0.1758,0.2238,0.1188,0.675768,0.6033,0.17094
+330,['Beauty and the Beast (1991)'],"['Lion King, The (1994)']",0.1492,0.1698,0.1008,0.675603,0.634621,0.094409
+331,['Batman (1989)'],['Apollo 13 (1995)'],0.1972,0.208,0.1332,0.675456,0.65792,0.039706
+332,"['Jurassic Park (1993)', 'Forrest Gump (1994)']",['Terminator 2: Judgment Day (1991)'],0.2014,0.2306,0.136,0.675273,0.63252,0.098649
+333,"['Jurassic Park (1993)', 'Terminator 2: Judgment Day (1991)']","['Silence of the Lambs, The (1991)', 'Forrest Gump (1994)']",0.1662,0.2124,0.1122,0.67509,0.601669,0.173423
+334,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Indiana Jones and the Last Crusade (1989)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1534,0.1176,0.1034,0.674055,0.776653,0.213604
+335,"['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Return of the King, The (2003)', 'Star Wars: Episode IV - A New Hope (1977)']",0.154,0.1242,0.1038,0.674026,0.754887,0.170872
+336,"['Silence of the Lambs, The (1991)', 'Fugitive, The (1993)']",['Batman (1989)'],0.1546,0.1972,0.1042,0.673997,0.601198,0.172052
+337,['Pulp Fiction (1994)'],"['Shawshank Redemption, The (1994)']",0.326,0.3482,0.2192,0.672393,0.650958,0.048791
+338,"['Forrest Gump (1994)', 'Apollo 13 (1995)']","['Jurassic Park (1993)', 'Silence of the Lambs, The (1991)']",0.1514,0.1758,0.1018,0.672391,0.625729,0.108252
+339,"['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']","['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1544,0.1278,0.1038,0.67228,0.742244,0.149103
+340,['True Lies (1994)'],['Terminator 2: Judgment Day (1991)'],0.1824,0.2306,0.1226,0.672149,0.601903,0.165978
+341,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode IV - A New Hope (1977)']",['Indiana Jones and the Last Crusade (1989)'],0.1622,0.1462,0.109,0.67201,0.708782,0.080241
+342,"['Terminator, The (1984)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1518,0.1864,0.102,0.671937,0.609573,0.146486
+343,"['Pulp Fiction (1994)', 'Apollo 13 (1995)']",['Dances with Wolves (1990)'],0.1568,0.189,0.1052,0.670918,0.613766,0.133832
+344,"['Fugitive, The (1993)', 'Forrest Gump (1994)']","['Jurassic Park (1993)', 'Pulp Fiction (1994)']",0.1512,0.1728,0.1014,0.670635,0.628721,0.097035
+345,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Matrix, The (1999)', 'Star Wars: Episode VI - Return of the Jedi (1983)']",0.1534,0.1448,0.1028,0.670143,0.690044,0.044012
+346,"['Fugitive, The (1993)', 'Forrest Gump (1994)']",['True Lies (1994)'],0.1512,0.1824,0.1012,0.669312,0.612069,0.134251
+347,['Ace Ventura: Pet Detective (1994)'],['True Lies (1994)'],0.1632,0.1824,0.1092,0.669118,0.633901,0.081218
+348,"['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']","['Shawshank Redemption, The (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.154,0.1342,0.103,0.668831,0.718171,0.106911
+349,['Memento (2000)'],"['Matrix, The (1999)', 'Fight Club (1999)']",0.1562,0.1666,0.1044,0.668374,0.647512,0.047619
+350,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1622,0.1362,0.1084,0.668311,0.7321,0.136842
+351,"['Matrix, The (1999)', 'Fight Club (1999)']","['Lord of the Rings: The Two Towers, The (2002)']",0.1666,0.1988,0.1112,0.667467,0.613411,0.126672
+352,['Seven (a.k.a. Se7en) (1995)'],"['Pulp Fiction (1994)', 'Silence of the Lambs, The (1991)']",0.1988,0.2226,0.1326,0.667002,0.631344,0.08241
+353,['Speed (1994)'],['True Lies (1994)'],0.1704,0.1824,0.1136,0.666667,0.644737,0.050167
+354,"['Fugitive, The (1993)', 'Forrest Gump (1994)']",['Dances with Wolves (1990)'],0.1512,0.189,0.1008,0.666667,0.6,0.157895
+355,['Star Wars: Episode IV - A New Hope (1977)'],['Star Wars: Episode V - The Empire Strikes Back (1980)'],0.2844,0.2246,0.1894,0.665963,0.75462,0.187109
+356,"['Fugitive, The (1993)']",['Braveheart (1995)'],0.2068,0.254,0.1376,0.665377,0.603554,0.14604
+357,['Jurassic Park (1993)'],"['Silence of the Lambs, The (1991)']",0.2644,0.3134,0.1758,0.664902,0.612923,0.121891
+358,"['Pulp Fiction (1994)', 'Terminator 2: Judgment Day (1991)']",['Seven (a.k.a. Se7en) (1995)'],0.1628,0.1988,0.1082,0.664619,0.604442,0.142068
+359,"['Jurassic Park (1993)', 'Braveheart (1995)']","['Forrest Gump (1994)', 'Terminator 2: Judgment Day (1991)']",0.152,0.1702,0.101,0.664474,0.628947,0.082278
+360,['Batman (1989)'],['Dances with Wolves (1990)'],0.1972,0.189,0.131,0.6643,0.678711,0.032132
+361,['Ace Ventura: Pet Detective (1994)'],['Dumb & Dumber (Dumb and Dumber) (1994)'],0.1632,0.1398,0.1084,0.664216,0.719804,0.120247
+362,"['Terminator, The (1984)']","['Terminator 2: Judgment Day (1991)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1518,0.1328,0.1008,0.664032,0.711534,0.103373
+363,"['Silence of the Lambs, The (1991)', 'Terminator 2: Judgment Day (1991)']","['Jurassic Park (1993)', 'Pulp Fiction (1994)']",0.1618,0.1728,0.1074,0.663782,0.642655,0.048415
+364,['Batman (1989)'],['True Lies (1994)'],0.1972,0.1824,0.1308,0.663286,0.690195,0.059486
+365,"['Forrest Gump (1994)', 'Apollo 13 (1995)']","['Jurassic Park (1993)', 'Pulp Fiction (1994)']",0.1514,0.1728,0.1004,0.663144,0.622081,0.095621
+366,"['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1602,0.1362,0.1062,0.662921,0.721329,0.126183
+367,"['Terminator, The (1984)']","['Matrix, The (1999)', 'Terminator 2: Judgment Day (1991)']",0.1518,0.1388,0.1006,0.662714,0.693749,0.068421
+368,['Star Wars: Episode VI - Return of the Jedi (1983)'],"['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",0.2342,0.1894,0.1552,0.662681,0.741055,0.166915
+369,"['Fugitive, The (1993)', 'Silence of the Lambs, The (1991)']",['Dances with Wolves (1990)'],0.1546,0.189,0.1024,0.662354,0.602077,0.14262
+370,"['Jurassic Park (1993)', 'Pulp Fiction (1994)']","['Fugitive, The (1993)']",0.1728,0.2068,0.1144,0.662037,0.607614,0.128205
+371,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1864,0.1602,0.1234,0.662017,0.716152,0.117384
+372,"['Lord of the Rings: The Return of the King, The (2003)']","['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1956,0.1434,0.1294,0.661554,0.781963,0.249046
+373,"['Pulp Fiction (1994)', 'Batman (1989)']",['Ace Ventura: Pet Detective (1994)'],0.1536,0.1632,0.1016,0.661458,0.642003,0.04461
+374,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1658,0.1278,0.1096,0.661037,0.759313,0.206522
+375,"['Matrix, The (1999)', 'Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)']",['Indiana Jones and the Last Crusade (1989)'],0.1516,0.1462,0.1002,0.66095,0.673157,0.027328
+376,['Speed (1994)'],"['Jurassic Park (1993)', 'Terminator 2: Judgment Day (1991)']",0.1704,0.1662,0.1126,0.660798,0.669148,0.01875
+377,"['Pulp Fiction (1994)', 'Terminator 2: Judgment Day (1991)']","['Jurassic Park (1993)', 'Silence of the Lambs, The (1991)']",0.1628,0.1758,0.1074,0.659705,0.635313,0.056228
+378,['Batman (1989)'],"['Fugitive, The (1993)']",0.1972,0.2068,0.13,0.659229,0.643928,0.035036
+379,"['Forrest Gump (1994)', 'Terminator 2: Judgment Day (1991)']","['Pulp Fiction (1994)', 'Jurassic Park (1993)']",0.1702,0.1728,0.1122,0.659224,0.654265,0.011265
+380,"['Forrest Gump (1994)', 'Terminator 2: Judgment Day (1991)']","['Jurassic Park (1993)', 'Silence of the Lambs, The (1991)']",0.1702,0.1758,0.1122,0.659224,0.648725,0.023952
+381,['Pulp Fiction (1994)'],['Forrest Gump (1994)'],0.326,0.3396,0.2148,0.658896,0.645703,0.030169
+382,"['Terminator, The (1984)']","['Terminator 2: Judgment Day (1991)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1518,0.1254,0.1,0.658762,0.728105,0.148984
+383,"['Fugitive, The (1993)']",['Terminator 2: Judgment Day (1991)'],0.2068,0.2306,0.1362,0.658607,0.62462,0.079017
+384,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1646,0.1278,0.1084,0.658566,0.753383,0.2
+385,"['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']","['Pulp Fiction (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.154,0.1276,0.1014,0.658442,0.726557,0.146504
+386,"['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.154,0.1238,0.1014,0.658442,0.738752,0.171202
+387,"['Pulp Fiction (1994)', 'Silence of the Lambs, The (1991)', 'Forrest Gump (1994)']",['Seven (a.k.a. Se7en) (1995)'],0.165,0.1988,0.1086,0.658182,0.60223,0.132445
+388,"['Pulp Fiction (1994)', 'Matrix, The (1999)']","['Lord of the Rings: The Two Towers, The (2002)']",0.1644,0.1988,0.1082,0.658151,0.601209,0.134902
+389,['Gladiator (2000)'],"['Lord of the Rings: The Two Towers, The (2002)']",0.1678,0.1988,0.1104,0.657926,0.606629,0.120999
+390,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1524,0.1806,0.1002,0.65748,0.606148,0.121134
+391,"['Lion King, The (1994)']","['Jurassic Park (1993)', 'Forrest Gump (1994)']",0.1698,0.2014,0.1116,0.657244,0.605683,0.121726
+392,['Dances with Wolves (1990)'],"['Fugitive, The (1993)']",0.189,0.2068,0.1242,0.657143,0.628861,0.065538
+393,"['Pulp Fiction (1994)', 'Apollo 13 (1995)']",['True Lies (1994)'],0.1568,0.1824,0.103,0.656888,0.610791,0.108383
+394,"['Sixth Sense, The (1999)']",['American Beauty (1999)'],0.1766,0.2064,0.116,0.656852,0.609434,0.11161
+395,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']","['Forrest Gump (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1622,0.1368,0.1064,0.65598,0.716879,0.13188
+396,"['Shawshank Redemption, The (1994)', 'Star Wars: Episode IV - A New Hope (1977)']","['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.155,0.1698,0.1016,0.655484,0.626918,0.066308
+397,['Star Wars: Episode IV - A New Hope (1977)'],['Star Wars: Episode VI - Return of the Jedi (1983)'],0.2844,0.2342,0.1864,0.655415,0.725658,0.151114
+398,['Star Wars: Episode V - The Empire Strikes Back (1980)'],"['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']",0.2246,0.1806,0.1472,0.655387,0.735224,0.170543
+399,"['Jurassic Park (1993)', 'Silence of the Lambs, The (1991)']","['Fugitive, The (1993)']",0.1758,0.2068,0.115,0.654152,0.605123,0.115845
+400,"['Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']",0.211,0.1544,0.138,0.654028,0.773905,0.248901
+401,"['Silence of the Lambs, The (1991)']","['Shawshank Redemption, The (1994)']",0.3134,0.3482,0.2048,0.653478,0.620823,0.076182
+402,"['Jurassic Park (1993)', 'Terminator 2: Judgment Day (1991)']",['Batman (1989)'],0.1662,0.1972,0.1086,0.65343,0.60207,0.121664
+403,['Shrek (2001)'],"['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.165,0.174,0.1078,0.653333,0.636437,0.038927
+404,"['Shawshank Redemption, The (1994)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.155,0.1602,0.1012,0.652903,0.642307,0.024299
+405,"['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']","['Forrest Gump (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1544,0.1368,0.1008,0.65285,0.694846,0.092437
+406,"['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Fight Club (1999)']",0.1544,0.1324,0.1006,0.651554,0.705686,0.118153
+407,"['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Star Wars: Episode VI - Return of the Jedi (1983)']",0.1894,0.1448,0.1234,0.651531,0.75187,0.211575
+408,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",['Back to the Future (1985)'],0.1698,0.1982,0.1106,0.651355,0.604688,0.110334
+409,"['Lord of the Rings: The Two Towers, The (2002)']","['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1988,0.138,0.1294,0.650905,0.794293,0.293153
+410,"['Silence of the Lambs, The (1991)', 'Fugitive, The (1993)']",['True Lies (1994)'],0.1546,0.1824,0.1006,0.650712,0.601123,0.117597
+411,"['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']",0.154,0.1134,0.1002,0.650649,0.767124,0.242823
+412,"['Matrix, The (1999)', 'Fight Club (1999)']","['Lord of the Rings: The Return of the King, The (2003)']",0.1666,0.1956,0.1082,0.64946,0.601315,0.114173
+413,"['Pulp Fiction (1994)', 'Jurassic Park (1993)']","['Forrest Gump (1994)', 'Terminator 2: Judgment Day (1991)']",0.1728,0.1702,0.1122,0.649306,0.654265,0.011265
+414,"['Matrix, The (1999)', 'Lord of the Rings: The Return of the King, The (2003)']","['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1544,0.12,0.1002,0.648964,0.741982,0.197474
+415,['Aladdin (1992)'],['Batman (1989)'],0.1884,0.1972,0.1222,0.64862,0.634147,0.033409
+416,"['Jurassic Park (1993)', 'Terminator 2: Judgment Day (1991)']",['True Lies (1994)'],0.1662,0.1824,0.1078,0.648616,0.619812,0.067276
+417,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode IV - A New Hope (1977)']","['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1864,0.1534,0.1208,0.648069,0.717777,0.150685
+418,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Two Towers, The (2002)', 'Forrest Gump (1994)']",0.1646,0.1296,0.1064,0.646416,0.733702,0.186368
+419,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Forrest Gump (1994)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1698,0.159,0.1096,0.645465,0.667386,0.04927
+420,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']","['Shawshank Redemption, The (1994)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1622,0.1342,0.1046,0.644883,0.712158,0.145985
+421,['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],"['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",0.2184,0.1894,0.1408,0.644689,0.694044,0.108614
+422,['Ace Ventura: Pet Detective (1994)'],['Aladdin (1992)'],0.1632,0.1884,0.1052,0.644608,0.601497,0.102273
+423,['Aladdin (1992)'],['Beauty and the Beast (1991)'],0.1884,0.1492,0.1214,0.644374,0.729024,0.181314
+424,['Speed (1994)'],"['Pulp Fiction (1994)', 'Jurassic Park (1993)']",0.1704,0.1728,0.1098,0.644366,0.639892,0.010283
+425,"['Jurassic Park (1993)', 'Pulp Fiction (1994)']",['Batman (1989)'],0.1728,0.1972,0.1112,0.643519,0.603707,0.094281
+426,['True Lies (1994)'],['Dances with Wolves (1990)'],0.1824,0.189,0.1172,0.642544,0.631325,0.025964
+427,['Seven (a.k.a. Se7en) (1995)'],"['Usual Suspects, The (1995)']",0.1988,0.225,0.1276,0.641851,0.604481,0.088454
+428,"['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode VI - Return of the Jedi (1983)']",0.1602,0.1398,0.1028,0.641698,0.688517,0.103448
+429,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1658,0.1894,0.1062,0.640531,0.600625,0.094779
+430,"['Matrix, The (1999)', 'Forrest Gump (1994)']","['Lord of the Rings: The Two Towers, The (2002)']",0.1758,0.1988,0.1126,0.640501,0.603449,0.087786
+431,['Apollo 13 (1995)'],['Batman (1989)'],0.208,0.1972,0.1332,0.640385,0.65792,0.039706
+432,['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)'],['Star Wars: Episode VI - Return of the Jedi (1983)'],0.2184,0.2342,0.1398,0.64011,0.618518,0.050512
+433,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']","['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1622,0.1806,0.1038,0.639951,0.607351,0.076987
+434,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Two Towers, The (2002)', 'Forrest Gump (1994)']",0.1658,0.1296,0.106,0.639324,0.728612,0.19113
+435,"['Matrix, The (1999)', 'Silence of the Lambs, The (1991)']","['Sixth Sense, The (1999)']",0.161,0.1766,0.1028,0.638509,0.610308,0.06644
+436,"['Jurassic Park (1993)', 'Silence of the Lambs, The (1991)']","['Forrest Gump (1994)', 'Terminator 2: Judgment Day (1991)']",0.1758,0.1702,0.1122,0.638225,0.648725,0.023952
+437,"['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']","['Lord of the Rings: The Two Towers, The (2002)']",0.1806,0.1988,0.1152,0.637874,0.608676,0.068887
+438,"['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']","['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode VI - Return of the Jedi (1983)']",0.1894,0.1398,0.1208,0.637804,0.750948,0.238004
+439,"['Forrest Gump (1994)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.159,0.1602,0.1014,0.637736,0.635347,0.00551
+440,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode IV - A New Hope (1977)']","['Indiana Jones and the Last Crusade (1989)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1622,0.1142,0.1034,0.637485,0.771457,0.277457
+441,['Speed (1994)'],"['Jurassic Park (1993)', 'Fugitive, The (1993)']",0.1704,0.1478,0.1086,0.637324,0.686051,0.107824
+442,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",['Gladiator (2000)'],0.1658,0.1678,0.1056,0.636912,0.633117,0.008772
+443,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1646,0.1806,0.1048,0.636695,0.608491,0.066556
+444,['Speed (1994)'],"['Jurassic Park (1993)', 'Silence of the Lambs, The (1991)']",0.1704,0.1758,0.1084,0.63615,0.62638,0.022708
+445,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Shawshank Redemption, The (1994)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1646,0.126,0.1046,0.63548,0.732819,0.207527
+446,"['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Pulp Fiction (1994)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1602,0.1496,0.1018,0.635456,0.657968,0.050962
+447,"['Pulp Fiction (1994)', 'Jurassic Park (1993)']",['Speed (1994)'],0.1728,0.1704,0.1098,0.635417,0.639892,0.010283
+448,['Star Wars: Episode IV - A New Hope (1977)'],"['Matrix, The (1999)']",0.2844,0.2876,0.1806,0.635021,0.631488,0.008176
+449,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Fight Club (1999)']",0.1622,0.1324,0.103,0.635018,0.706482,0.155532
+450,"['Forrest Gump (1994)', 'Terminator 2: Judgment Day (1991)']",['Speed (1994)'],0.1702,0.1704,0.108,0.634548,0.634176,0.00086
+451,['Seven (a.k.a. Se7en) (1995)'],"['Pulp Fiction (1994)', 'Forrest Gump (1994)']",0.1988,0.2148,0.126,0.633803,0.610197,0.055633
+452,['Speed (1994)'],"['Forrest Gump (1994)', 'Terminator 2: Judgment Day (1991)']",0.1704,0.1702,0.108,0.633803,0.634176,0.00086
+453,"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Star Wars: Episode VI - Return of the Jedi (1983)']",0.1622,0.1448,0.1028,0.633785,0.671865,0.085211
+454,"['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Forrest Gump (1994)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1602,0.159,0.1014,0.632959,0.635347,0.00551
+455,"['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1602,0.174,0.1014,0.632959,0.607859,0.059278
+456,['Shrek (2001)'],"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.165,0.1658,0.1044,0.632727,0.631201,0.003534
+457,"['Pulp Fiction (1994)', 'Matrix, The (1999)']","['Sixth Sense, The (1999)']",0.1644,0.1766,0.104,0.632603,0.610752,0.051477
+458,['Forrest Gump (1994)'],['Pulp Fiction (1994)'],0.3396,0.326,0.2148,0.632509,0.645703,0.030169
+459,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1658,0.1242,0.1048,0.632087,0.737943,0.224622
+460,"['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Shawshank Redemption, The (1994)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1602,0.155,0.1012,0.63171,0.642307,0.024299
+461,"['Silence of the Lambs, The (1991)', 'Forrest Gump (1994)']",['Terminator 2: Judgment Day (1991)'],0.2124,0.2306,0.134,0.630885,0.605989,0.0589
+462,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Two Towers, The (2002)', 'Fight Club (1999)']",0.1658,0.1232,0.1046,0.630881,0.739953,0.23102
+463,['Seven (a.k.a. Se7en) (1995)'],"['Pulp Fiction (1994)', 'Shawshank Redemption, The (1994)']",0.1988,0.2192,0.1254,0.630785,0.601433,0.06972
+464,['Aladdin (1992)'],"['Lion King, The (1994)']",0.1884,0.1698,0.1188,0.630573,0.66511,0.077694
+465,['Terminator 2: Judgment Day (1991)'],['Braveheart (1995)'],0.2306,0.254,0.1454,0.630529,0.601485,0.068986
+466,"['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']","['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1806,0.1534,0.1138,0.630122,0.685987,0.123524
+467,"['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']",0.174,0.1806,0.1096,0.629885,0.618375,0.026939
+468,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",['Shrek (2001)'],0.1658,0.165,0.1044,0.629674,0.631201,0.003534
+469,"['Shawshank Redemption, The (1994)']",['Pulp Fiction (1994)'],0.3482,0.326,0.2192,0.629523,0.650958,0.048791
+470,['Gladiator (2000)'],"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1678,0.1658,0.1056,0.629321,0.633117,0.008772
+471,"['Fugitive, The (1993)']",['Batman (1989)'],0.2068,0.1972,0.13,0.628627,0.643928,0.035036
+472,['Jurassic Park (1993)'],['Terminator 2: Judgment Day (1991)'],0.2644,0.2306,0.1662,0.628593,0.674661,0.102798
+473,"['Matrix, The (1999)']",['Star Wars: Episode IV - A New Hope (1977)'],0.2876,0.2844,0.1806,0.627955,0.631488,0.008176
+474,"['Matrix, The (1999)', 'Fight Club (1999)']","['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1666,0.174,0.1046,0.627851,0.6145,0.031356
+475,"['Fugitive, The (1993)']",['Apollo 13 (1995)'],0.2068,0.208,0.1298,0.62766,0.625849,0.004211
+476,"['Pulp Fiction (1994)', 'Forrest Gump (1994)']",['Terminator 2: Judgment Day (1991)'],0.2148,0.2306,0.1348,0.627561,0.606062,0.050869
+477,"['Lord of the Rings: The Fellowship of the Ring, The (2001)']",['Fight Club (1999)'],0.211,0.2238,0.1324,0.627488,0.609544,0.042328
+478,['Star Wars: Episode V - The Empire Strikes Back (1980)'],"['Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)', 'Star Wars: Episode IV - A New Hope (1977)']",0.2246,0.1622,0.1408,0.626892,0.747478,0.253659
+479,"['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']","['Lord of the Rings: The Return of the King, The (2003)']",0.1806,0.1956,0.1132,0.6268,0.602766,0.057034
+480,"['Matrix, The (1999)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1602,0.1278,0.1004,0.626717,0.70616,0.172708
+481,"['Matrix, The (1999)', 'Fight Club (1999)']",['Memento (2000)'],0.1666,0.1562,0.1044,0.626651,0.647512,0.047619
+482,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Two Towers, The (2002)', 'Fight Club (1999)']",0.1646,0.1232,0.103,0.625759,0.730899,0.224026
+483,['Gladiator (2000)'],"['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1678,0.174,0.105,0.625745,0.614596,0.026182
+484,"['Fugitive, The (1993)']",['True Lies (1994)'],0.2068,0.1824,0.1294,0.625725,0.667577,0.093918
+485,['Forrest Gump (1994)'],"['Silence of the Lambs, The (1991)']",0.3396,0.3134,0.2124,0.625442,0.651585,0.059464
+486,['Forrest Gump (1994)'],"['Shawshank Redemption, The (1994)']",0.3396,0.3482,0.2124,0.625442,0.617718,0.01809
+487,['Apollo 13 (1995)'],"['Fugitive, The (1993)']",0.208,0.2068,0.1298,0.624038,0.625849,0.004211
+488,['Apollo 13 (1995)'],['Dances with Wolves (1990)'],0.208,0.189,0.1296,0.623077,0.654396,0.071055
+489,"['Shawshank Redemption, The (1994)', 'Silence of the Lambs, The (1991)']","['Pulp Fiction (1994)', 'Forrest Gump (1994)']",0.2048,0.2148,0.1276,0.623047,0.608544,0.034247
+490,"['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)', 'Star Wars: Episode IV - A New Hope (1977)']",0.174,0.1242,0.1084,0.622989,0.747888,0.262381
+491,['True Lies (1994)'],['Speed (1994)'],0.1824,0.1704,0.1136,0.622807,0.644737,0.050167
+492,['Ace Ventura: Pet Detective (1994)'],"['Pulp Fiction (1994)', 'Batman (1989)']",0.1632,0.1536,0.1016,0.622549,0.642003,0.04461
+493,"['Jurassic Park (1993)', 'Pulp Fiction (1994)']","['Silence of the Lambs, The (1991)', 'Terminator 2: Judgment Day (1991)']",0.1728,0.1618,0.1074,0.621528,0.642655,0.048415
+494,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Shawshank Redemption, The (1994)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1658,0.126,0.103,0.62123,0.719345,0.210805
+495,['Dances with Wolves (1990)'],['True Lies (1994)'],0.189,0.1824,0.1172,0.620106,0.631325,0.025964
+496,['Batman (1989)'],['Aladdin (1992)'],0.1972,0.1884,0.1222,0.619675,0.634147,0.033409
+497,"['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",['Shrek (2001)'],0.174,0.165,0.1078,0.61954,0.636437,0.038927
+498,"['Pulp Fiction (1994)', 'Shawshank Redemption, The (1994)']","['Usual Suspects, The (1995)']",0.2192,0.225,0.1358,0.619526,0.611541,0.018807
+499,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Pulp Fiction (1994)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1698,0.1496,0.105,0.618375,0.660124,0.094216
+500,"['Pulp Fiction (1994)', 'Terminator 2: Judgment Day (1991)']",['Speed (1994)'],0.1628,0.1704,0.1006,0.617936,0.604156,0.032674
+501,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']","['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1622,0.1222,0.1002,0.617756,0.718862,0.217155
+502,['True Lies (1994)'],['Die Hard: With a Vengeance (1995)'],0.1824,0.1494,0.1126,0.617325,0.685503,0.150547
+503,"['Jurassic Park (1993)', 'Forrest Gump (1994)']","['Fugitive, The (1993)']",0.2014,0.2068,0.1242,0.616683,0.608631,0.019014
+504,"['Jurassic Park (1993)', 'Silence of the Lambs, The (1991)']",['Speed (1994)'],0.1758,0.1704,0.1084,0.61661,0.62638,0.022708
+505,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1622,0.1238,0.1,0.616523,0.712139,0.206452
+506,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Terminator 2: Judgment Day (1991)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1698,0.1328,0.1046,0.616019,0.701835,0.186869
+507,"['Jurassic Park (1993)', 'Pulp Fiction (1994)']","['Forrest Gump (1994)', 'Braveheart (1995)']",0.1728,0.1788,0.1064,0.615741,0.605409,0.02447
+508,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",['Indiana Jones and the Last Crusade (1989)'],0.1698,0.1462,0.1044,0.614841,0.664465,0.111531
+509,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Star Wars: Episode IV - A New Hope (1977)', 'Back to the Future (1985)']",0.1698,0.1302,0.1042,0.613663,0.706985,0.202247
+510,"['Pulp Fiction (1994)', 'Matrix, The (1999)']","['Forrest Gump (1994)', 'Fight Club (1999)']",0.1644,0.1392,0.1008,0.613139,0.668638,0.12426
+511,"['Jurassic Park (1993)', 'Forrest Gump (1994)']",['Apollo 13 (1995)'],0.2014,0.208,0.1232,0.611718,0.602013,0.023061
+512,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1658,0.1172,0.1014,0.61158,0.738384,0.267621
+513,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Pulp Fiction (1994)', 'Lord of the Rings: The Two Towers, The (2002)']",0.1658,0.12,0.1014,0.61158,0.72829,0.248373
+514,"['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)', 'Forrest Gump (1994)']",0.174,0.123,0.1064,0.611494,0.738267,0.267576
+515,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)', 'Fight Club (1999)']",0.1646,0.1666,0.1006,0.611179,0.607511,0.008673
+516,"['Jurassic Park (1993)', 'Silence of the Lambs, The (1991)']","['Pulp Fiction (1994)', 'Terminator 2: Judgment Day (1991)']",0.1758,0.1628,0.1074,0.610922,0.635313,0.056228
+517,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Jurassic Park (1993)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1698,0.137,0.1036,0.61013,0.683167,0.161417
+518,"['Shawshank Redemption, The (1994)']",['Forrest Gump (1994)'],0.3482,0.3396,0.2124,0.609994,0.617718,0.01809
+519,"['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)', 'Forrest Gump (1994)']",0.174,0.1758,0.106,0.609195,0.606077,0.007383
+520,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Terminator, The (1984)']",0.1698,0.1518,0.1034,0.608952,0.645056,0.082493
+521,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)', 'Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1646,0.1152,0.1002,0.608748,0.73927,0.275056
+522,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)', 'Forrest Gump (1994)']",0.1658,0.123,0.1008,0.607961,0.713736,0.22766
+523,"['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']",0.1646,0.1172,0.1,0.607533,0.730387,0.260726
+524,"['Matrix, The (1999)', 'Star Wars: Episode IV - A New Hope (1977)']","['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1806,0.174,0.1096,0.606866,0.618375,0.026939
+525,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)', 'Fight Club (1999)']",0.1658,0.1192,0.1006,0.606755,0.725358,0.252711
+526,['Batman (1989)'],['Batman Forever (1995)'],0.1972,0.1346,0.1196,0.606491,0.747525,0.295005
+527,"['Star Wars: Episode VI - Return of the Jedi (1983)', 'Star Wars: Episode V - The Empire Strikes Back (1980)']","['Matrix, The (1999)', 'Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)']",0.1698,0.1516,0.1028,0.605418,0.641759,0.083257
+528,['Batman (1989)'],['Ace Ventura: Pet Detective (1994)'],0.1972,0.1632,0.1192,0.604462,0.667427,0.140962
+529,['Speed (1994)'],"['Fugitive, The (1993)', 'Forrest Gump (1994)']",0.1704,0.1512,0.103,0.60446,0.642838,0.087832
+530,"['Matrix, The (1999)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Two Towers, The (2002)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1658,0.1126,0.1002,0.604343,0.747109,0.298541
+531,"['Matrix, The (1999)', 'Fight Club (1999)']","['Lord of the Rings: The Return of the King, The (2003)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1666,0.1646,0.1006,0.603842,0.607511,0.008673
+532,['Independence Day (a.k.a. ID4) (1996)'],['Mission: Impossible (1996)'],0.215,0.1616,0.1298,0.603721,0.703469,0.21637
+533,"['Lord of the Rings: The Two Towers, The (2002)']","['Lord of the Rings: The Fellowship of the Ring, The (2001)', 'Star Wars: Episode IV - A New Hope (1977)']",0.1988,0.1362,0.12,0.603622,0.742339,0.291163
+534,"['Usual Suspects, The (1995)']","['Pulp Fiction (1994)', 'Shawshank Redemption, The (1994)']",0.225,0.2192,0.1358,0.603556,0.611541,0.018807
+535,"['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",['Gladiator (2000)'],0.174,0.1678,0.105,0.603448,0.614596,0.026182
+536,"['Matrix, The (1999)', 'Forrest Gump (1994)']","['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']",0.1758,0.174,0.106,0.602958,0.606077,0.007383
+537,"['Matrix, The (1999)', 'Forrest Gump (1994)']","['Sixth Sense, The (1999)']",0.1758,0.1766,0.1058,0.60182,0.600457,0.003244
+538,"['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Matrix, The (1999)', 'Fight Club (1999)']",0.174,0.1666,0.1046,0.601149,0.6145,0.031356
+539,"['Lord of the Rings: The Two Towers, The (2002)', 'Lord of the Rings: The Fellowship of the Ring, The (2001)']","['Shawshank Redemption, The (1994)', 'Lord of the Rings: The Return of the King, The (2003)']",0.174,0.1266,0.1046,0.601149,0.713687,0.241837
+540,"['Star Wars: Episode V - The Empire Strikes Back (1980)', 'Star Wars: Episode IV - A New Hope (1977)']","['Matrix, The (1999)', 'Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)']",0.1894,0.1516,0.1138,0.600845,0.675752,0.166373
+541,"['Fugitive, The (1993)']","['Jurassic Park (1993)', 'Forrest Gump (1994)']",0.2068,0.2014,0.1242,0.60058,0.608631,0.019014
+542,"['Fugitive, The (1993)']",['Dances with Wolves (1990)'],0.2068,0.189,0.1242,0.60058,0.628861,0.065538
+543,"['Godfather, The (1972)']","['Godfather: Part II, The (1974)']",0.211,0.1434,0.1266,0.6,0.741422,0.296752

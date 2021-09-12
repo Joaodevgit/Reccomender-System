@@ -1,0 +1,59 @@
+.main-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  /*border: 2px solid red;*/
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://user-images.githubusercontent.com/44362304/122621357-31d5e680-d08d-11eb-8299-a5ad5629fa49.jpg");
+  justify-items: center;
+  align-items: center;
+}
+
+/* Login */
+.login-grid-container {
+  display: grid;
+  grid-template-rows: 0.35fr 0.10fr 0.25fr 0.25fr 0.20fr;
+  width: 380px;
+  height: 450px;
+  background: white;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+.logo-container {
+  background-image: url("https://user-images.githubusercontent.com/44362304/122624988-be3ad600-d09a-11eb-9bd0-c5a1c1a40ee0.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  /*border: 2px solid black;*/
+}
+
+.text-login-container {
+  text-align: center;
+  font-size: 1.5vw;
+  margin-bottom: 2%;
+  /*border: 2px solid black;*/
+}
+
+.inputs-form-container {
+  display: grid;
+  grid-template-rows: 0.50fr 0.50fr;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 5%;
+  /*border: 2px solid black;*/
+}
+
+.button-container {
+  display: grid;
+  /*border: 2px solid black;*/
+  justify-items: center;
+  align-items: center;
+}
+
+.dont-have-acc-container {
+  display: grid;
+  grid-template-columns: 0.60fr 0.40fr;
+  grid-gap: 1em;
+  margin-top: 5%;
+  /*border: 2px solid black;*/
+}

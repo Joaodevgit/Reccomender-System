@@ -1,0 +1,28 @@
+<div class="main-grid-container">
+  <div class="signup-grid-container">
+    <div class="logo-container">
+    </div>
+    <div class="text-signup-container">
+      SIGN UP
+    </div>
+    <form (submit)="onRegister()">
+      <div class="inputs-form-container">
+        <input id="userNameForm" style="margin-bottom: 2%;" type="text" class="form-control" placeholder="Username"
+               aria-label="Username"/>
+        <input id="passwordForm" type="password" class="form-control" placeholder="Password" aria-label="Password"/>
+      </div>
+      <div class="button-container">
+        <button style="margin-top: 2%;" type="submit" class="btn btn-primary">Sign up</button>
+      </div>
+    </form>
+    <div class="have-acc-container">
+      <div style="text-align: right;">
+        You already have an account?
+      </div>
+      <div>
+        <a href="">Login</a>
+      </div>
+    </div>
+  </div>
+</div>
+

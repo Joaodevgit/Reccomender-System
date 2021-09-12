@@ -1,0 +1,128 @@
+.grid-page-container {
+  display: grid;
+  grid-template-rows: 0.1fr 0.125fr 0.9fr;
+}
+
+/* Navbar */
+.grid-navbar-container {
+  display: grid;
+  grid-template-columns: 0.8fr 0.3fr;
+  background-color: #000000;
+  border-bottom: 1px solid red;
+}
+
+.grid-logo-container {
+  display: grid;
+  grid-template-columns: 0.2fr 0.8fr;
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: 0.3fr 0.3fr 0.35fr;
+  grid-gap: 0.5em;
+  /*border: 2px solid white;*/
+}
+
+.logout-container {
+  display: grid;
+  align-items: center;
+  /*border: 2px solid white;*/
+}
+
+.user-name-container {
+  color: white;
+  align-self: center;
+  text-align: center;
+  /*border: 2px solid white;*/
+}
+
+.user-profile-button-container {
+  align-self: center;
+}
+/* Movie Details Content */
+
+.main-page-content-container {
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+  grid-gap: 1em;
+  background-color: #000000;
+  /*border: 2px solid white;*/
+  height: 80.8vh;
+  padding-left: 1%;
+}
+
+.movie-title-container {
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+  padding-top: 1%;
+  /*border: 2px solid white;*/
+  background-color: #000000;
+}
+
+.movie-details-left-side-container {
+  display: grid;
+  /*border: 2px solid white;*/
+  padding-bottom: 27%;
+  justify-items: center;
+  align-items: center;
+}
+
+.movie-details-right-side-container {
+  display: grid;
+  grid-template-rows: 0.1fr 0.3fr 0.1fr 0.1fr 0.1fr 0.2fr 0.3fr;
+  grid-gap: 1em;
+  /*border: 2px solid white;*/
+}
+
+.movie-size {
+  width: 350px;
+  height: 450px;
+  /*border: 2px solid white;*/
+  border-radius: 2px;
+}
+
+.movie-detail-title {
+  color: white;
+  font-size: 30px;
+  width: 20%;
+  /*border: 2px solid white;*/
+  border-bottom: 1px solid white;
+}
+
+.movie-detail-description {
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+  padding: 1%;
+  /*border: 2px solid white;*/
+}
+
+.movie-details-buttons-container {
+  display: grid;
+  grid-template-columns: 0.3fr 0.2fr;
+}
+
+.rating-stars {
+  color: white;
+  font-size: 30px;
+  padding-left: 1%;
+  /*border: 2px solid white;*/
+}
+
+.button-rate-container {
+  color: white;
+  font-size: 30px;
+  /*border: 2px solid white;*/
+}
+
+.button-watched-container {
+  padding-top: 11.3%;
+  padding-left: 20%;
+  /*border: 2px solid white;*/
+}
+
+ngb-rating {
+  font-size: 50px;
+  color: gold;
+}

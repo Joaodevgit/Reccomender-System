@@ -1,0 +1,355 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "ESTGFLIX REST API"
+  },
+  "tags": [
+    {
+      "name": "Movies Request",
+      "description": "API about the movies requested"
+    },
+    {
+      "name": "User Relationships Interactions",
+      "description": "API for manipulate user interactions in neo4j database"
+    },
+    {
+      "name": "User Authentication",
+      "description": "API for handling user authentication"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "securityDefinitions": {
+    "ApiKeyAuth": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header"
+    }
+  },
+  "paths": {
+    "/api/mainMenu": {
+      "get": {
+        "security": {
+          "ApiKeyAuth": []
+        },
+        "tags": [
+          "Movies Request"
+        ],
+        "summary": "Returns the recommended and popular movies given an user id",
+        "parameters": [
+          {
+            "name": "userID",
+            "in": "query",
+            "description": "User id",
+            "type": "number"
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/movies"
+            }
+          }
+        }
+      }
+    },
+    "/api/movieDetails/{movie_id}": {
+      "get": {
+        "security": {
+          "ApiKeyAuth": []
+        },
+        "tags": [
+          "Movies Request"
+        ],
+        "summary": "Returns the movie details",
+        "parameters": [
+          {
+            "name": "movie_id",
+            "in": "path",
+            "description": "ID of a certain movie",
+            "type": "number"
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/movies"
+            }
+          }
+        }
+      }
+    },
+    "/api/searchResults/{search_words}": {
+      "get": {
+        "security": {
+          "ApiKeyAuth": []
+        },
+        "tags": [
+          "Movies Request"
+        ],
+        "summary": "Returns the movies searched",
+        "parameters": [
+          {
+            "name": "search_words",
+            "in": "path",
+            "description": "Search bar result words",
+            "type": "string"
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/userProfile": {
+      "get": {
+        "security": {
+          "ApiKeyAuth": []
+        },
+        "tags": [
+          "Movies Request"
+        ],
+        "summary": "Returns the movies watched and rated by the user",
+        "parameters": [
+          {
+            "name": "userID",
+            "in": "query",
+            "description": "User id",
+            "type": "number"
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/movieDetails/{movie_id}/{user_id}": {
+      "post": {
+        "security": {
+          "ApiKeyAuth": []
+        },
+        "tags": [
+          "User Relationships Interactions"
+        ],
+        "summary": "Adds a new relationship WATCHED between the user and the movie",
+        "parameters": [
+          {
+            "name": "movie_id",
+            "in": "path",
+            "description": "ID of a certain movie",
+            "type": "number"
+          },
+          {
+            "name": "user_id",
+            "in": "path",
+            "description": "ID of a certain user",
+            "type": "number"
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Movie added to your watched movies list"
+          }
+        }
+      }
+    },
+    "/api/movieDetails/rate/{movie_id}/{user_id}": {
+      "post": {
+        "security": {
+          "ApiKeyAuth": []
+        },
+        "tags": [
+          "User Relationships Interactions"
+        ],
+        "summary": "Adds a new relationship RATED with rating property between the user and the movie",
+        "parameters": [
+          {
+            "name": "movie_id",
+            "in": "path",
+            "description": "ID of a certain movie",
+            "type": "number"
+          },
+          {
+            "name": "user_id",
+            "in": "path",
+            "description": "ID of a certain user",
+            "type": "number"
+          },
+          {
+            "name": "rating",
+            "in": "body",
+            "description": "Rating value assigned by the user",
+            "schema": {
+              "$ref": "#/components/schemas/movieRatedPost"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Movie rated added to your rated movies list"
+          }
+        }
+      }
+    },
+    "/api/login": {
+      "post": {
+        "security": {
+          "ApiKeyAuth": []
+        },
+        "tags": [
+          "User Authentication"
+        ],
+        "summary": "Login in the application",
+        "parameters": [
+          {
+            "name": "Login",
+            "in": "body",
+            "description": "User login information",
+            "schema": {
+              "$ref": "#/components/schemas/login"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Invalid token"
+          }
+        }
+      }
+    },
+    "/api/register": {
+      "post": {
+        "security": {
+          "ApiKeyAuth": []
+        },
+        "tags": [
+          "User Authentication"
+        ],
+        "summary": "Sign up in the application",
+        "parameters": [
+          {
+            "name": "Login",
+            "in": "body",
+            "description": "User sign up information",
+            "schema": {
+              "$ref": "#/components/schemas/login"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Invalid token"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "movies": {
+        "properties": {
+          "movieId": {
+            "type": "number"
+          },
+          "imdb_id": {
+            "type": "number"
+          },
+          "tmdb_id": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "released_date": {
+            "type": "string"
+          },
+          "year": {
+            "type": "string"
+          },
+          "overview": {
+            "type": "string"
+          },
+          "poster": {
+            "type": "string"
+          }
+        }
+      },
+      "user": {
+        "properties": {
+          "user_id": {
+            "type": "number"
+          }
+        }
+      },
+      "movieDetailsGet": {
+        "properties": {
+          "movieInfo": {
+            "type": "number"
+          }
+        }
+      },
+      "movieRatedPost": {
+        "properties": {
+          "rating": {
+            "type": "number"
+          }
+        }
+      },
+      "login": {
+        "properties": {
+          "username": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
+

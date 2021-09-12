@@ -1,0 +1,83 @@
+<div class="grid-page-container">
+  <!-- Navbar -->
+  <div class="grid-navbar-container">
+    <div class="grid-logo-container">
+      <a href="mainMenu">
+        <img
+          src="https://user-images.githubusercontent.com/44362304/122624988-be3ad600-d09a-11eb-9bd0-c5a1c1a40ee0.png"/>
+      </a>
+    </div>
+    <div class="profile-container">
+      <div class="logout-container">
+        <button (click)="logout()" type="button" class="btn btn-light" data-mdb-ripple-color="dark">Logout</button>
+      </div>
+      <div class="user-name-container">
+        {{currentUser.username}}
+      </div>
+      <div class="user-profile-button-container">
+        <button routerLink="/userProfile" type="button" class="btn btn-light">
+          <mdb-icon fas icon="user-alt" size="1x"></mdb-icon>
+          Your profile
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar -->
+  <!-- Page Content -->
+  <div [hidden]="isLoaded" style="background-color: #000000; height:90.9vh;">
+    <div class="spinner-border text-light" style="width: 3rem; height: 3rem;"
+         role="status">
+    </div>
+    <span style="color: white; padding-left: 1%">Loading your movies history please wait a moment... </span>
+  </div>
+  <div class="main-page-content-container" *ngIf="isLoaded">
+    <!-- Profile Left Side -->
+    <div class="profile-left-side-container">
+      <div class="profile-image">
+        <img width=300px height=300px style="border-radius: 8px;"
+             src="https://user-images.githubusercontent.com/44362304/122658733-9d40b680-d168-11eb-905c-073ab06de26c.png">
+      </div>
+      <div class="profile-details">Username: {{currentUser.username}}</div>
+    </div>
+    <!-- Profile Left Side -->
+    <!-- Profile Right Side -->
+    <div class="profile-right-side-container">
+      <div class="watched-movies-container">
+        <div class="watched-movies-title">
+          Movies Watched
+        </div>
+        <div class="no-movies-content" [hidden]="hasWatchedMovies">
+          <div class="no-movies-text">No movies watched yet.</div>
+        </div>
+        <div class="watched-movies-content" *ngIf="hasWatchedMovies">
+          <div class="movie-content" *ngFor="let movie of userWatchedMovies">
+            <img routerLink="{{'/movieDetails/' + movie['movieId']}}" class="movies-size"
+                 src="{{movie['poster']}}">
+            <div class="movie-title">
+              {{movie["title"]}}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="watched-movies-container">
+        <div class="watched-movies-title">
+          Movies Rated
+        </div>
+        <div class="no-movies-content" [hidden]="hasRatedMovies">
+          <div class="no-movies-text">No movies rated yet.</div>
+        </div>
+        <div class="watched-movies-content" *ngIf="hasRatedMovies">
+          <div class="movie-content" *ngFor="let movie of userRatedMovies">
+            <img routerLink="{{'/movieDetails/' + movie['movieId']}}" class="movies-size"
+                 src="{{movie['poster']}}">
+            <div class="movie-title">
+              {{movie["title"]}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Profile Right Side -->
+  </div>
+  <!-- Page Content -->
+</div>
